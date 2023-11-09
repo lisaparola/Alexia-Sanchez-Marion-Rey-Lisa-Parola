@@ -1,8 +1,47 @@
+body {
+    background-color:#F2F0ED;
+}
+
+#haut {
+position: relative;
+background: #000;
+width: 1280px;
+height: 80px;
+flex-shrink: 0;
+}
+
+.logo {
+position: relative;
+top: 2px;
+left: 40px;
+width: 90px;
+}
 
 h1{
+position: relative;
+bottom: 80px;
+text-align: center;
 color: #FAEBDC;
-font-size: 25px;
-font-family: Simonetta;
+font-size: 30px;
+font-family: 'Simonetta', serif;
 font-weight: 400;
-word-wrap: break-word;
 }
+
+#ligne {
+position: relative;
+bottom: 100px;
+background: #FAEBDC;
+width: 764px;
+height: 0.1px;
+}
+
+#PD {
+position: relative;
+bottom: 115px;
+left: 1100px;
+color: #FAEBDC;
+font-family: 'Simonetta',serif;
+font-size: 15px;
+font-weight: 400;
+}
+
