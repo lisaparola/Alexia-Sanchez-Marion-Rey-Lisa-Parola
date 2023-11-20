@@ -152,13 +152,12 @@ flex-shrink: 0;
  }
 
 #fond {
-margin-left: 930px;
-margin-top: -650px;
-position: absolute;
-background: rgba(144, 103, 62, 0.66);
-border: 2px solid #000;
-padding-top: 290px;
 width: 210px;
+height: 310px;
+border: 2px solid #000;
+background: rgba(144, 103, 62, 0.66);
+margin-top: -635px;
+margin-left: 898px;
 }
 
 .signature {
