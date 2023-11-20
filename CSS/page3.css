@@ -135,7 +135,7 @@ font-weight:900;
 font-family: 'Playfair Display';
 }
 
-tab{
+table{
 color: #000;
 font-family: 'Playfair Display';
 font-weight:bold;
@@ -143,11 +143,9 @@ font-size: 14px;
 font-style: normal;
 line-height: normal; 
 border-collapse: collapse;
-}
-
-form{
+margin-top: -800px;
 margin-left:680px;
-margin-top:-830px;
+position:relative;
 }
 
 input{
@@ -161,23 +159,25 @@ input[type="text"]{
 width: 550px;
 height: 40px;
 flex-shrink: 0;
-margin-top:15px;
+margin-top:-3px;
 }
 
-input[type="textS"]{
+#textS{
 width:550px;
 height:100px;
-margin-top:15px;
+margin-top:27px;
 }
 
-form td, form input{
-margin-bottom:40px;
+#mot1, #mot2, #mot3, #mot4{
+position:absolute;
+margin-bottom:100px;
 }
 
-form td, form select{
-margin-bottom:40px;
-margin-top:15px;
+
+table td, table input{
+height:100px;
 }
+
 
 #categories{
 width: 556px;
@@ -223,7 +223,7 @@ margin-top: 5px;
 margin-left: 250px;
 font-size: 18px;
 letter-spacing: 1.8px;
-word-spacing: 300px;
+word-spacing: 280px;
 }
 
 #localisation{
