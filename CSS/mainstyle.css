@@ -1,11 +1,13 @@
 body {
 background-color:#F2F0ED;
+max-width: 1400px;
+margin: auto;
 }
 
 header {
 position: relative;
 background: #000;
-width: 100%;
+width: 1280px;
 height: 80px;
 flex-shrink: 0;
 }
@@ -80,17 +82,12 @@ background: #FAEBDC;
 }
 
 #oeuvre-accueil {
-}
-
-#imgde{
-    position: relative;
-    margin-left: 60%;
-    
+margin-top: -80px;
 }
 
 #titre {
 position: absolute;
-margin-top: 110px;
+margin-top: 90px;
 margin-left: 180px;
 font-size: 20px;
 font-family: 'Sora';
@@ -101,7 +98,7 @@ letter-spacing: 2px;
 .accueil {
 margin-left: 35px;
 margin-right: 530px; 
-margin-top: 140px;
+margin-top: 120px;
 width: 715px;
 height: 327px;
 flex-shrink: 0;
@@ -129,16 +126,11 @@ letter-spacing: 2px;
 }
 
 #Dechewsky {
-position: relative;
-display: flex; /* Convertit le conteneur en flexbox */
-/* Autres styles facultatifs selon vos besoins */
-flex-direction: column; /* ou column, row-reverse, column-reverse selon l'orientation souhaitée */
-justify-content: center; /* Alignement horizontal des éléments (center, flex-start, flex-end, space-between, etc.) */
-align-items: center;
 height: 530px;
+flex-shrink: 0;
 background: rgba(229, 214, 199, 0.66);
 padding: 1px 20px 15px;
-margin-top: 15%;
+margin-top: 200px;
 margin-right: 310px;
 margin-left: 80px;
 color: #000;
@@ -152,8 +144,8 @@ letter-spacing: 2px;
 
 .pd {
 position: absolute;
-margin-left: 880px;
-margin-top: -620px;
+margin-left: 900px;
+margin-top: -670px;
 width: 210px;
 height: 347px;
 flex-shrink: 0;
@@ -164,21 +156,21 @@ width: 210px;
 height: 310px;
 border: 2px solid #000;
 background: rgba(144, 103, 62, 0.66);
-margin-top: -585px;
-margin-left: 878px;
+margin-top: -635px;
+margin-left: 898px;
 }
 
 .signature {
 position: absolute;
-margin-left: 907px;
-margin-top: -260px;
+margin-left: 925px;
+margin-top: -315px;
 width: 160px;
-    }
+}
 
 footer {
 position: absolute;
 margin-top: 100px;
-width: 100%;
+width: 1280px;
 height: 95px;
 flex-shrink: 0;
 background: #000;
@@ -191,7 +183,7 @@ font-family: 'Simonetta';
 
 #titres {
 margin-top: 5px;
-margin-left: 25%;
+margin-left: 250px;
 font-size: 18px;
 word-spacing: 350px;
 letter-spacing: 1.8px
@@ -200,7 +192,7 @@ letter-spacing: 1.8px
 #localisation {
 display: flex;
 flex-shrink: 0;
-margin-left: 25%;
+margin-left: 230px;
 font-size: 15px;
 letter-spacing: 1.6px;
 }
@@ -208,7 +200,7 @@ letter-spacing: 1.6px;
 #contact {
 display: flex;
 flex-shrink: 0;
-margin-left: 50%;
+margin-left: 720px;
 margin-top: -50px;
 font-size: 15px;
 letter-spacing: 1.6px;
