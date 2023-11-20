@@ -33,43 +33,44 @@
 	<img class="salon" src="img/salon.png" alt="salon">
 </div>
 <p id="suite"> ET POUR NE RIEN MANQUER...</p> 
-<tab> 
-	<form>
-		<tr> 
-			<td> Nom </td> 
-			<td class="right"> 
-				<input required type="text" name="nom"> 
-			</td> 
-		</tr> 
-		<tr>
-			<td> Mail </td>
-			<td class="right">
-				<input required type="text" name="email">
-			</td>
-		</tr>
-		<tr>
-			<td> Objet </td>
-			<td class="right">
-				<select id="categories" name="categories">
-				<option value="choix1">Sélectionner un objet </option>
-				<option value="choix1">Renseignements</option>
-				<option value="choix2">Expositions</option>
-				<option value="choix3">Achat</option>
-				<option value="choix4">Collaboration</option>
-			</select>
-			<tr> 
-			<td> Message </td> 
-			<td class="rightS"> 
-				<input required type="textS" name="message"> 
-			</td> 
-		</tr> 
-			</td>
-		</tr>
-		<td colspan="2">
-                <input id="soumettre" type="submit" value="Soumettre">
-            </td>
-	</form>
-</tab>
+
+<table>
+            <tr>
+                <td id="mot1"> Nom </td>
+                <td>
+                    <input required type="text" name="nom">
+                </td>
+            </tr>
+            <tr>
+                <td id="mot2"> Mail </td>
+                <td>
+                    <input required type="text" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td id="mot3"> Objet </td>
+                <td>
+                    <select id="categories" name="categories">
+                        <option value="choix1">Sélectionner un objet </option>
+                        <option value="choix1">Renseignements</option>
+                        <option value="choix2">Expositions</option>
+                        <option value="choix3">Achat</option>
+                        <option value="choix4">Collaboration</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td id="mot4"> Message </td>
+                <td>
+                    <input id="textS" required type="text" name="message">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input id="soumettre" type="submit" value="Soumettre">
+                </td>
+            </tr>
+    </table>
 <footer>
         <p id="titres"><strong>LOCALISATION</strong><strong> CONTACT</strong></p>
         <p id="localisation">10 Rue de la République 75000 Paris</p>
@@ -77,3 +78,4 @@
 </footer>
 </body>
 </html>
+    
