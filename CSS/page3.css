@@ -1,5 +1,5 @@
 body {
-    background-color:#F2F0ED;
+background-color:#F2F0ED;
 }
 
 header {
@@ -54,7 +54,7 @@ height: 50px;
 flex-direction: column;
 justify-content: center;
 text-align: center;
-font-family: Simonetta;
+font-family: 'Simonetta';
 font-size: 20px;
 letter-spacing: 2px;
 margin-left:-50px;
@@ -94,7 +94,7 @@ height: 29px;
 flex-shrink: 0;
 color: #000;
 text-align: justify;
-font-family: Playfair Display;
+font-family: 'Playfair Display';
 font-size: 20px;
 font-style: normal;
 line-height: normal;
@@ -107,7 +107,7 @@ height: 173px;
 flex-shrink: 0;
 color: #000;
 text-align: justify;
-font-family: Simonetta;
+font-family: 'Simonetta';
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -132,12 +132,12 @@ margin-left:820px;
 padding-bottom:700px;
 margin-top:-700px;
 font-weight:900;
-font-family: Playfair Display;
+font-family: 'Playfair Display';
 }
 
 tab{
 color: #000;
-font-family: Playfair Display;
+font-family: 'Playfair Display';
 font-weight:bold;
 font-size: 14px;
 font-style: normal;
@@ -145,8 +145,7 @@ line-height: normal;
 border-collapse: collapse;
 }
 
-form {
-width:175px;
+form{
 margin-left:680px;
 margin-top:-830px;
 }
@@ -181,7 +180,7 @@ margin-top:15px;
 }
 
 #categories{
-width: 558px;
+width: 556px;
 height: 50px;
 box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
 border: 1px solid #000;
@@ -224,7 +223,7 @@ margin-top: 5px;
 margin-left: 250px;
 font-size: 18px;
 letter-spacing: 1.8px;
-word-spacing: 270px
+word-spacing: 300px;
 }
 
 #localisation{
