@@ -96,6 +96,7 @@ letter-spacing: 2px;
 }
 
 .accueil {
+flex-shrink: 0;
 margin-left: 35px;
 margin-right: 530px; 
 margin-top: 120px;
@@ -106,6 +107,7 @@ border: 10px solid #7A4938;
 }
 
 #peintre {
+flex-shrink: 0;
 position: absolute;
 margin-top: 1px;
 margin-left: 565px;
@@ -116,6 +118,7 @@ letter-spacing: 2px;
 }
 
 #texte {
+flex-shrink: 0;
 margin-top: -330px;
 margin-left: 830px;
 font-family: 'Simonetta';
@@ -126,6 +129,7 @@ letter-spacing: 2px;
 }
 
 #Dechewsky {
+flex-shrink: 0;
 height: 530px;
 flex-shrink: 0;
 background: rgba(229, 214, 199, 0.66);
@@ -143,6 +147,7 @@ letter-spacing: 2px;
 }
 
 .pd {
+flex-shrink: 0;
 position: absolute;
 margin-left: 920px;
 margin-top: -670px;
@@ -152,6 +157,7 @@ flex-shrink: 0;
  }
 
 #fond {
+flex-shrink: 0;
 width: 210px;
 height: 310px;
 border: 2px solid #000;
@@ -161,6 +167,7 @@ margin-left: 918px;
 }
 
 .signature {
+flex-shrink: 0;
 position: absolute;
 margin-left: 925px;
 margin-top: -315px;
