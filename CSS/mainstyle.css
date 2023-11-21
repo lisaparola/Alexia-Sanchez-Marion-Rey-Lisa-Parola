@@ -1,6 +1,7 @@
 body {
 background-color:#F2F0ED;
 max-width: 1400px;
+max-height: 2000px;
 margin: auto;
 }
 
@@ -86,6 +87,7 @@ margin-top: -80px;
 }
 
 #titre {
+flex-shrink: 0;
 position: absolute;
 margin-top: 90px;
 margin-left: 180px;
