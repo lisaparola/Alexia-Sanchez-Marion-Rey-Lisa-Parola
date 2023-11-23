@@ -1,5 +1,7 @@
 body {
 background-color:#F2F0ED;
+width: 1280px;
+margin: auto;
 }
 
 header {
@@ -208,22 +210,23 @@ footer{
 position: absolute;
 margin-top: 120px;
 width: 1280px;
-height: 95px;
+height: 100px;
 flex-shrink: 0;
 background: #000;
 }
 
 #titres, #localisation, #contact {
-color: white;
 font-family: 'Simonetta';
+color: #FAEBDC;
 }
 
 #titres{
+width: 1030px;
 margin-top: 5px;
 margin-left: 250px;
 font-size: 18px;
-letter-spacing: 1.8px;
-word-spacing: 280px;
+word-spacing: 350px;
+letter-spacing: 1.8px
 }
 
 #localisation{
@@ -232,14 +235,14 @@ flex-shrink: 0;
 margin-left: 230px;
 font-size: 15px;
 letter-spacing: 1.6px;
-margin-top: -140px;
+margin-top: -150px;
 }
 
 #contact{
 display: flex;
 flex-shrink: 0;
 margin-left: 720px;
-margin-top: -210px;
+margin-top: -200px;
 font-size: 15px;
 letter-spacing: 1.6px;
 }
