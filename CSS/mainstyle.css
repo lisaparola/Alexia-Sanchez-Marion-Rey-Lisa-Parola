@@ -1,7 +1,6 @@
 body {
 background-color:#F2F0ED;
-max-width: 1400px;
-max-height: 2000px;
+width: 1280px;
 margin: auto;
 }
 
@@ -48,38 +47,50 @@ font-size: 20px;
 font-weight: 400;
 }
 
-nav{
-display: inline-block;
-}
-
-nav ul{
-list-style: none;
-}
-
-nav ul li {
-margin: 10px;
-display: inline-block;
-}
-
-nav ul li a {
+nav ul li a{
+color:#FAEBDC;
+background-color:#000;
 display: flex;
 width: 152px;
 height: 50px;
 flex-direction: column;
 justify-content: center;
 text-align: center;
-color: #FAEBDC;
-background: #000;
 font-family: 'Simonetta';
 font-size: 20px;
 letter-spacing: 2px;
-margin-left: -50px;
-margin-right: 16px;
+margin-left:-50px;
+margin-right:16px;
 }
 
 nav ul li:nth-child(2) a {
 color: #000;
-background: #FAEBDC;
+background-color:#FAEBDC;
+}
+
+nav ul li:nth-child(3) a:hover {
+background-color:  #242220;
+}
+
+nav ul li:nth-child(2) a:hover {
+background-color:  #E0C7AF;
+}
+
+nav ul li:nth-child(1) a:hover {
+background-color:#242220;
+}
+
+nav ul{
+list-style: none;
+}
+
+nav ul li{
+margin: 10px;
+display: inline-block;
+}
+
+nav{
+display: inline-block;
 }
 
 #oeuvre-accueil {
@@ -98,7 +109,6 @@ letter-spacing: 2px;
 }
 
 .accueil {
-flex-shrink: 0;
 margin-left: 35px;
 margin-right: 530px; 
 margin-top: 120px;
@@ -109,8 +119,8 @@ border: 10px solid #7A4938;
 }
 
 #peintre {
-flex-shrink: 0;
 position: absolute;
+flex-shrink: 0;
 margin-top: 1px;
 margin-left: 565px;
 font-size: 20px;
@@ -120,12 +130,14 @@ letter-spacing: 2px;
 }
 
 #texte {
+position: absolute;
+width: 400px;
 flex-shrink: 0;
 margin-top: -330px;
 margin-left: 830px;
 font-family: 'Simonetta';
 text-align: justify;
-font-size: 20px;
+font-size: 18px;
 color: #65635F;
 letter-spacing: 2px;
 }
@@ -136,7 +148,7 @@ height: 530px;
 flex-shrink: 0;
 background: rgba(229, 214, 199, 0.66);
 padding: 1px 20px 15px;
-margin-top: 200px;
+margin-top: 85px;
 margin-right: 310px;
 margin-left: 80px;
 color: #000;
@@ -169,9 +181,8 @@ margin-left: 918px;
 }
 
 .signature {
-flex-shrink: 0;
 position: absolute;
-margin-left: 925px;
+margin-left: 945px;
 margin-top: -315px;
 width: 160px;
 }
@@ -191,6 +202,7 @@ font-family: 'Simonetta';
 }
 
 #titres {
+width: 1030px;
 margin-top: 5px;
 margin-left: 250px;
 font-size: 18px;
