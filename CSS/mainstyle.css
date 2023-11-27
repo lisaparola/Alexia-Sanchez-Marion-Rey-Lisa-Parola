@@ -48,7 +48,8 @@ font-weight: 400;
 }
 
 nav ul li a{
-color:#FAEBDC;
+position: relative;
+color: #FAEBDC;
 background-color:#000;
 display: flex;
 width: 152px;
@@ -59,8 +60,8 @@ text-align: center;
 font-family: 'Simonetta';
 font-size: 20px;
 letter-spacing: 2px;
-margin-left:-50px;
-margin-right:16px;
+margin-left: -50px;
+margin-right: 16px;
 }
 
 nav ul li:nth-child(2) a {
