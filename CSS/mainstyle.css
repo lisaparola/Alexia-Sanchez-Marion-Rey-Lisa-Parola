@@ -235,7 +235,7 @@ letter-spacing: 1.6px;
 
  header {
  position: relative;
- width: 100%;
+ width: 500px;
  height: 50px;
  flex-shrink: 0;
     }
