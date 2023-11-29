@@ -232,7 +232,12 @@ letter-spacing: 1.6px;
  }
 
 @media only screen and (max-width: 1024px) {
-    
+
+ body {
+ max-width: 1024px;
+  margin: auto;
+    }
+  
  header {
  position: relative;
  width: 500px;
