@@ -234,7 +234,7 @@ letter-spacing: 1.6px;
 @media only screen and (max-width: 1024px) {
 
  body {
- max-width: 1024px;
+ max-width: 100%;
   margin: auto;
     }
   
