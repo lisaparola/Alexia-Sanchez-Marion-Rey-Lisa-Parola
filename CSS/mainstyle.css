@@ -229,21 +229,21 @@ font-size: 15px;
 letter-spacing: 1.6px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 360px) and (max-height: 640px) {
 
 header {
 position: relative;
 background: #000;
-width: 360px;
+width: 335px;
 height: 50px;
 flex-shrink: 0;
 }
 
 .logo {
 position: relative;
-top: 4px;
-left: 15px;
-width: 50px;
+top: 5px;
+left: 12px;
+width: 48px;
 }
 
 h1{
@@ -261,7 +261,7 @@ font-weight: 400;
 position: relative;
 top: -42px;
 background: #FAEBDC;
-width: 210px;
+width: 200px;
 height: 0.1px;
 left: 5px;
 }
@@ -269,7 +269,7 @@ left: 5px;
 #PD {
 position: relative;
 top: -45px;
-left: 300px;
+left: 280px;
 color: #FAEBDC;
 font-family: 'Simonetta',serif;
 font-size: 6px;
@@ -290,8 +290,8 @@ font-family: 'Simonetta';
 font-size: 6px;
 letter-spacing: 2px;
 margin-top: -15px;
-margin-left:-50px;
-margin-right:16px;
+margin-left:-45px;
+left: -10px;
 text-decoration: none;
 }
 
@@ -327,6 +327,7 @@ display: inline-block;
 
 #oeuvre-accueil {
 margin-top: 30px;
+margin-left: -14px;
 }
 
 #titre {
@@ -363,10 +364,10 @@ letter-spacing: 2px;
 
 #texte {
 position: absolute;
-width: 328px;
+width: 315px;
 flex-shrink: 0;
 margin-top: 30px;
-margin-left: 16px;
+margin-left: 25px;
 font-family: 'Simonetta';
 text-align: justify;
 font-size: 8px;
@@ -374,15 +375,20 @@ color: #65635F;
 letter-spacing: 2px;
 }
 
+#photo-signature {
+margin-left: -15px;
+}
+ 
+    
 #Dechewsky {
- width: 160px;
+ width: 150px;
 flex-shrink: 0;
-height: 408px;
+height: 415px;
 flex-shrink: 0;
 background: rgba(229, 214, 199, 0.66);
 padding: 1px 15px 1px;
 margin-top: 130px;
-margin-left: 162px;
+margin-left: 148px;
 color: #000;
 text-align: justify;
 font-family: 'Simonetta';
@@ -397,7 +403,7 @@ flex-shrink: 0;
 position: absolute;
 margin-left: 31px;
 margin-top: -12px;
-width: 119px;
+width: 117px;
 height: 160px;
 flex-shrink: 0;
  }
@@ -405,10 +411,10 @@ flex-shrink: 0;
 #fond {
 flex-shrink: 0;
 width: 111px;
-height: 145px;
+height: 147px;
 border: 1px solid #000;
 background: rgba(144, 103, 62, 0.66);
-margin-top: -410px;
+margin-top: -417px;
 margin-left: 30px;
 }
 
@@ -422,7 +428,7 @@ width: 70px;
 footer {
 position: absolute;
 margin-top: 310px;
-width: 360px;
+width: 340px;
 height: 70px;
 flex-shrink: 0;
 background: #000;
@@ -436,7 +442,7 @@ font-family: 'Simonetta';
 #titres {
 width: 1030px;
 margin-top: 10px;
-margin-left: 60px;
+margin-left: 40px;
 font-size: 8px;
 word-spacing: 95px;
 letter-spacing: 1.8px
@@ -445,7 +451,7 @@ letter-spacing: 1.8px
 #localisation {
 display: flex;
 flex-shrink: 0;
-margin-left: 45px;
+margin-left: 30px;
 margin-top: 15px;
 font-size: 6px;
 letter-spacing: 1.8px;
@@ -455,7 +461,7 @@ letter-spacing: 1.8px;
 position: absolute;
 display: flex;
 flex-shrink: 0;
-margin-left: 230px;
+margin-left: 210px;
 margin-top: -20px;
 font-size: 6px;
 letter-spacing: 1.8px;
