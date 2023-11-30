@@ -1,3 +1,4 @@
+
 body {
 background-color:#F2F0ED;
 width: 1280px;
@@ -228,133 +229,238 @@ font-size: 15px;
 letter-spacing: 1.6px;
 }
 
+@media only screen and (max-width: 640px) {
+    
+ body {
+background-color:#F2F0ED;
+margin: auto;
+width: 1440px;
+}
 
-@media screen and (max-width: 640px) {
-    
- header {
- position: relative;
- width: 640px;
- height: 50px;
- flex-shrink: 0;
-    }
-    
+header {
+position: relative;
+background: #000;
+width: 1440px;
+height: 100px;
+flex-shrink: 0;
+}
+
 .logo {
 position: relative;
-width: 55px;
-margin-left: -10px;
-    }
-
-h1 {
-position: relative;
-top: -50px;
-margin-left: -110px;
-text-align: center;
-font-size: 20px;
-font-family: 'Simonetta', serif;
-    }
-    
-#ligne {
-margin-left: 105px;
-top: -62px;
-width: 310px;
-height: 0;
+top: 5px;
+left: 70px;
+width: 105px;
 }
-   
+
+h1{
+position: relative;
+top: -110px;
+text-align: center;
+color: #FAEBDC;
+font-size: 50px;
+font-family: 'Simonetta', serif;
+font-weight: 400;
+}
+
+#ligne {
+position: relative;
+ top: -150px;
+background: #FAEBDC;
+width: 764px;
+height: 0.1px;
+}
+
 #PD {
-top: -70px;
-left: 425px;
-font-size: 7px;
+position: relative;
+top: -182px;
+left: 1155px;
+color: #FAEBDC;
+font-family: 'Simonetta',serif;
+font-size: 25px;
+font-weight: 400;
 }
 
 nav ul li a{
-width: 90px;
-height: 30px;
-font-size: 10px;
+position: relative;
+color:#FAEBDC;
+background-color:#000;
+display: flex;
+width: 220px;
+height: 80px;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+font-family: 'Simonetta';
+font-size: 32px;
+letter-spacing: 2px;
+margin-top: 50px;
+margin-left:-50px;
+margin-right:16px;
+text-decoration: none;
+}
+
+nav ul li:nth-child(2) a {
+color: #000;
+background-color:#FAEBDC;
+}
+
+nav ul li:nth-child(3) a:hover {
+background-color:  #242220;
+}
+
+nav ul li:nth-child(2) a:hover {
+background-color:  #E0C7AF;
+}
+
+nav ul li:nth-child(1) a:hover {
+background-color:#242220;
+}
+
+nav ul{
+list-style: none;
+}
+
+nav ul li{
+margin: 10px;
+display: inline-block;
+}
+
+nav{
+display: inline-block;
 }
 
 #oeuvre-accueil {
-margin-top: -100px;
+margin-top: 30px;
 }
 
 #titre {
-margin-top: 95px;
-margin-left: 120px;
-font-size: 11px;
-letter-spacing: 1.5px;
+white-space:nowrap;
+flex-shrink: 0;
+position: absolute;
+margin-top: 70px;
+margin-left: 400px;
+font-size: 30px;
+font-family: 'Sora';
+font-weight: bold;
+letter-spacing: 2px;
 }
 
 .accueil {
-margin-left: 45px;
-margin-right: 530px; 
-margin-top: 110px;
-width: 400px;
-height: 200px;
-border: 6px solid #7A4938;
+margin-left: 120px;
+margin-top: 120px;
+width: 1160px;
+height: 500px;
+flex-shrink: 0;
+border: 18px solid #7A4938;
 }
 
 #peintre {
-margin-top: -3px;
-margin-left: 342px;
-font-size: 10px;
+ white-space:nowrap;
+position: absolute;
+flex-shrink: 0;
+margin-top: 1px;
+margin-left: 1065px;
+font-size: 25px;
+font-family: 'Sora';
+letter-spacing: 2px;
 }
-    
+
 #texte {
-width: 455px;
-margin-top: 35px;
-margin-left: 27px;
-font-size: 12px;
+position: absolute;
+width: 1250px;
+flex-shrink: 0;
+margin-top: 100px;
+margin-left: 100px;
+font-family: 'Simonetta';
+text-align: justify;
+font-size: 30px;
+color: #65635F;
+letter-spacing: 2px;
 }
 
 #Dechewsky {
-width: 250px;
-height: 300px;
-margin-top: 150px;
-margin-left: 190px;
-font-size: 10px;
+ width: 700px;
+flex-shrink: 0;
+height: 700px;
+flex-shrink: 0;
+background: rgba(229, 214, 199, 0.66);
+padding: 1px 30px 330px;
+margin-top:450px;
+margin-left: 650px;
+color: #000;
+text-align: justify;
+font-family: 'Simonetta';
+font-size: 30px;
+font-style: normal;
+line-height: normal;
+letter-spacing: 2px;
 }
 
 .pd {
-margin-left: -172px;
-margin-top: -400px;
-width: 130px;
-height: 180px;
+flex-shrink: 0;
+position: absolute;
+margin-left: 100px;
+margin-top: -60px;
+width: 500px;
+height: 660px;
+flex-shrink: 0;
  }
-  
+
 #fond {
-width: 122px;
-height: 160px;
-border: 1px solid #000;
-margin-top: -382px;
-margin-left: -172px;
+flex-shrink: 0;
+width: 470px;
+height: 598px;
+border: 2px solid #000;
+background: rgba(144, 103, 62, 0.66);
+margin-top: -1031px;
+margin-left: 100px;
 }
-    
+
 .signature {
-margin-left: -100px;
-margin-top: -217px;
-width: 70px;
+position: absolute;
+margin-left: 390px;
+margin-top: 610px;
+width: 230px;
 }
 
 footer {
-width: 500px;
-height: 70px;
+position: absolute;
+margin-top: 610px;
+width: 1440px;
+height: 160px;
+flex-shrink: 0;
+background: #000;
+}
+
+#titres, #localisation, #contact {
+color: #FAEBDC;
+font-family: 'Simonetta';
 }
 
 #titres {
-margin-left: 60px;
-font-size: 12px;
-word-spacing: 150px;
+width: 1030px;
+margin-top: 10px;
+margin-left: 170px;
+font-size: 30px;
+word-spacing: 450px;
 letter-spacing: 1.8px
 }
-    
 
 #localisation {
-margin-left: 45px;
-font-size: 10px;
+display: flex;
+flex-shrink: 0;
+margin-left: 140px;
+font-size: 22px;
+letter-spacing: 3px;
 }
 
 #contact {
-margin-left: 300px;
-margin-top: -28px;
-font-size: 10px;
+position: absolute;
+display: flex;
+flex-shrink: 0;
+margin-left: 840px;
+margin-top: -70px;
+font-size: 22px;
+letter-spacing: 3px;
 }
 }
