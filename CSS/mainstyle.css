@@ -229,7 +229,7 @@ letter-spacing: 1.6px;
 list-style: none;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 640px) {
 
 
 header {
