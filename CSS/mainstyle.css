@@ -41,7 +41,7 @@ height: 0.1px;
 #PD {
 position: relative;
 top: -150px;
-left: 1085px;
+margin-left: 1080px;
 color: #FAEBDC;
 font-family: 'Simonetta',serif;
 font-size: 20px;
@@ -113,7 +113,6 @@ letter-spacing: 2px;
 
 .accueil {
 margin-left: 35px;
-margin-right: 530px; 
 margin-top: 120px;
 width: 715px;
 height: 327px;
@@ -229,13 +228,17 @@ letter-spacing: 1.6px;
 list-style: none;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 360px) and (max-height: 640px) {
 
+    body {
+width: 360px;
+margin: auto;
+    }
 
 header {
 position: relative;
 background: #000;
-width: 335px;
+width: 360px;
 height: 50px;
 flex-shrink: 0;
 }
@@ -250,27 +253,27 @@ width: 48px;
 h1{
 position: relative;
 top: -35px;
-margin-left: 18px;
 text-align: center;
 color: #FAEBDC;
-font-size: 12px;
+font-size: 15px;
 font-family: 'Simonetta', serif;
 font-weight: 400;
 }
 
 #ligne {
 position: relative;
-top: -42px;
+text-align: center;
+top: -45px; 
 background: #FAEBDC;
-width: 200px;
+width: 205px;
 height: 0.1px;
-left: 5px;
+
 }
 
 #PD {
 position: relative;
-top: -45px;
-left: 280px;
+top: -55px;
+margin-left: 300px;
 color: #FAEBDC;
 font-family: 'Simonetta',serif;
 font-size: 6px;
@@ -295,7 +298,7 @@ margin-left:-45px;
 left: -10px;
 text-decoration: none;
 }
- 
+
 nav ul li:nth-child(2) a {
 color: #000;
 background-color:#FAEBDC;
@@ -326,16 +329,11 @@ nav{
 display: inline-block;
 }
 
-#oeuvre-accueil {
-margin-top: 30px;
-margin-left: -14px;
-}
-
 #titre {
 white-space:nowrap;
 flex-shrink: 0;
 position: absolute;
-margin-top: -25px;
+margin-top: 80px;
 margin-left: 68px;
 font-size: 8px;
 font-family: 'Sora';
@@ -345,7 +343,7 @@ letter-spacing: 2px;
 
 .accueil {
 margin-left: 26px;
-margin-top: -13px;
+margin-top: 92px;
 width: 300px;
 height: 140px;
 flex-shrink: 0;
@@ -365,24 +363,19 @@ letter-spacing: 2px;
 
 #texte {
 position: absolute;
-width: 315px;
+width: 325px;
 flex-shrink: 0;
 margin-top: 30px;
-margin-left: 25px;
+margin-left: 18px;
 font-family: 'Simonetta';
 text-align: justify;
 font-size: 8px;
 color: #65635F;
 letter-spacing: 2px;
 }
-
-#photo-signature {
-margin-left: -15px;
-}
- 
     
 #Dechewsky {
- width: 150px;
+ width: 170px;
 flex-shrink: 0;
 height: 415px;
 flex-shrink: 0;
@@ -402,26 +395,26 @@ letter-spacing: 2px;
 .pd {
 flex-shrink: 0;
 position: absolute;
-margin-left: 31px;
+margin-left: 20px;
 margin-top: -12px;
-width: 117px;
+width: 110px;
 height: 160px;
 flex-shrink: 0;
  }
 
 #fond {
 flex-shrink: 0;
-width: 111px;
+width: 104px;
 height: 147px;
 border: 1px solid #000;
 background: rgba(144, 103, 62, 0.66);
 margin-top: -417px;
-margin-left: 30px;
+margin-left: 19px;
 }
 
 .signature {
 position: absolute;
-margin-left: 88px;
+margin-left: 70px;
 margin-top: 152px;
 width: 70px;
 }
@@ -429,7 +422,7 @@ width: 70px;
 footer {
 position: absolute;
 margin-top: 310px;
-width: 340px;
+width: 360px;
 height: 70px;
 flex-shrink: 0;
 background: #000;
@@ -440,14 +433,13 @@ color: #FAEBDC;
 font-family: 'Simonetta';
 }
 
-
 #titres {
-width: 1030px;
-margin-top: 10px;
-margin-left: 25px;
+width: 310px;
+margin-top: 8px;
+margin-left: 40px;
 font-size: 10px;
 word-spacing: 100px;
-letter-spacing: 1.8px
+letter-spacing: 1.8px;
 }
 
 #localisation {
@@ -461,7 +453,7 @@ letter-spacing: 1.8px;
 
 .contact {
 flex-shrink: 0;
-margin-left: 170px;
+margin-left: 185px;
 margin-top: -28px;
 font-size: 8px;
 letter-spacing: 1.8px;
