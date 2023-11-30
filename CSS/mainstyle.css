@@ -230,53 +230,49 @@ letter-spacing: 1.6px;
 }
 
 @media only screen and (max-width: 640px) {
-    
- body {
-background-color:#F2F0ED;
-margin: auto;
-width: 1440px;
-}
 
 header {
 position: relative;
 background: #000;
-width: 1440px;
-height: 100px;
+width: 360px;
+height: 50px;
 flex-shrink: 0;
 }
 
 .logo {
 position: relative;
-top: 5px;
-left: 70px;
-width: 105px;
+top: 4px;
+left: 15px;
+width: 50px;
 }
 
 h1{
 position: relative;
-top: -110px;
+top: -35px;
+margin-left: 18px;
 text-align: center;
 color: #FAEBDC;
-font-size: 50px;
+font-size: 12px;
 font-family: 'Simonetta', serif;
 font-weight: 400;
 }
 
 #ligne {
 position: relative;
- top: -150px;
+top: -42px;
 background: #FAEBDC;
-width: 764px;
+width: 210px;
 height: 0.1px;
+left: 5px;
 }
 
 #PD {
 position: relative;
-top: -182px;
-left: 1155px;
+top: -45px;
+left: 300px;
 color: #FAEBDC;
 font-family: 'Simonetta',serif;
-font-size: 25px;
+font-size: 6px;
 font-weight: 400;
 }
 
@@ -285,15 +281,15 @@ position: relative;
 color:#FAEBDC;
 background-color:#000;
 display: flex;
-width: 220px;
-height: 80px;
+width: 60px;
+height: 20px;
 flex-direction: column;
 justify-content: center;
 text-align: center;
 font-family: 'Simonetta';
-font-size: 32px;
+font-size: 6px;
 letter-spacing: 2px;
-margin-top: 50px;
+margin-top: -15px;
 margin-left:-50px;
 margin-right:16px;
 text-decoration: none;
@@ -321,7 +317,7 @@ list-style: none;
 }
 
 nav ul li{
-margin: 10px;
+margin: 12px;
 display: inline-block;
 }
 
@@ -337,60 +333,60 @@ margin-top: 30px;
 white-space:nowrap;
 flex-shrink: 0;
 position: absolute;
-margin-top: 70px;
-margin-left: 400px;
-font-size: 30px;
+margin-top: -25px;
+margin-left: 68px;
+font-size: 8px;
 font-family: 'Sora';
 font-weight: bold;
 letter-spacing: 2px;
 }
 
 .accueil {
-margin-left: 120px;
-margin-top: 120px;
-width: 1160px;
-height: 500px;
+margin-left: 26px;
+margin-top: -13px;
+width: 300px;
+height: 140px;
 flex-shrink: 0;
-border: 18px solid #7A4938;
+border: 5px solid #7A4938;
 }
 
 #peintre {
  white-space:nowrap;
 position: absolute;
 flex-shrink: 0;
-margin-top: 1px;
-margin-left: 1065px;
-font-size: 25px;
+margin-top: -3px;
+margin-left: 255px;
+font-size: 6px;
 font-family: 'Sora';
 letter-spacing: 2px;
 }
 
 #texte {
 position: absolute;
-width: 1250px;
+width: 328px;
 flex-shrink: 0;
-margin-top: 100px;
-margin-left: 100px;
+margin-top: 30px;
+margin-left: 16px;
 font-family: 'Simonetta';
 text-align: justify;
-font-size: 30px;
+font-size: 8px;
 color: #65635F;
 letter-spacing: 2px;
 }
 
 #Dechewsky {
- width: 700px;
+ width: 160px;
 flex-shrink: 0;
-height: 700px;
+height: 408px;
 flex-shrink: 0;
 background: rgba(229, 214, 199, 0.66);
-padding: 1px 30px 330px;
-margin-top:450px;
-margin-left: 650px;
+padding: 1px 15px 1px;
+margin-top: 130px;
+margin-left: 162px;
 color: #000;
 text-align: justify;
 font-family: 'Simonetta';
-font-size: 30px;
+font-size: 8px;
 font-style: normal;
 line-height: normal;
 letter-spacing: 2px;
@@ -399,35 +395,35 @@ letter-spacing: 2px;
 .pd {
 flex-shrink: 0;
 position: absolute;
-margin-left: 100px;
-margin-top: -60px;
-width: 500px;
-height: 660px;
+margin-left: 31px;
+margin-top: -12px;
+width: 119px;
+height: 160px;
 flex-shrink: 0;
  }
 
 #fond {
 flex-shrink: 0;
-width: 470px;
-height: 598px;
-border: 2px solid #000;
+width: 111px;
+height: 145px;
+border: 1px solid #000;
 background: rgba(144, 103, 62, 0.66);
-margin-top: -1031px;
-margin-left: 100px;
+margin-top: -410px;
+margin-left: 30px;
 }
 
 .signature {
 position: absolute;
-margin-left: 390px;
-margin-top: 610px;
-width: 230px;
+margin-left: 88px;
+margin-top: 152px;
+width: 70px;
 }
 
 footer {
 position: absolute;
-margin-top: 610px;
-width: 1440px;
-height: 160px;
+margin-top: 310px;
+width: 360px;
+height: 70px;
 flex-shrink: 0;
 background: #000;
 }
@@ -440,27 +436,28 @@ font-family: 'Simonetta';
 #titres {
 width: 1030px;
 margin-top: 10px;
-margin-left: 170px;
-font-size: 30px;
-word-spacing: 450px;
+margin-left: 60px;
+font-size: 8px;
+word-spacing: 95px;
 letter-spacing: 1.8px
 }
 
 #localisation {
 display: flex;
 flex-shrink: 0;
-margin-left: 140px;
-font-size: 22px;
-letter-spacing: 3px;
+margin-left: 45px;
+margin-top: 15px;
+font-size: 6px;
+letter-spacing: 1.8px;
 }
 
 #contact {
 position: absolute;
 display: flex;
 flex-shrink: 0;
-margin-left: 840px;
-margin-top: -70px;
-font-size: 22px;
-letter-spacing: 3px;
+margin-left: 230px;
+margin-top: -20px;
+font-size: 6px;
+letter-spacing: 1.8px;
 }
 }
