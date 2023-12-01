@@ -496,3 +496,16 @@ font-size: 7px;
 letter-spacing: 1px;
 }
 }
+
+@media only screen and (max-width: 600px) and (max-height: 960px) {
+    
+    body {
+max-width: 600px;
+    }
+    
+    header {
+    width: 500px;
+    }
+    
+    
+}
