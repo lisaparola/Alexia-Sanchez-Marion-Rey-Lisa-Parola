@@ -414,9 +414,10 @@ margin: auto;
 }
     
 .populaires-container {
-    margin: auto;
+    margin-top: -1100px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-}
+    }
+    
 
