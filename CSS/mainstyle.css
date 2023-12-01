@@ -144,9 +144,9 @@ color: #65635F;
 letter-spacing: 2px;
 }
 
-#Dechewsky {
+#Dechewsky1 {
 flex-shrink: 0;
-height: 530px;
+height: 320px;
 flex-shrink: 0;
 background: rgba(229, 214, 199, 0.66);
 padding: 1px 20px 15px;
@@ -161,6 +161,25 @@ font-style: normal;
 line-height: normal;
 letter-spacing: 2px;
 }
+
+#Dechewsky2 {
+flex-shrink: 0;
+height: 200px;
+flex-shrink: 0;
+background: rgba(229, 214, 199, 0.66);
+padding: 1px 20px 15px;
+width: 830px;
+margin-top: px;
+margin-left: 80px;
+color: #000;
+text-align: justify;
+font-family: 'Simonetta';
+font-size: 22px;
+font-style: normal;
+line-height: normal;
+letter-spacing: 2px;
+}
+
 
 .pd {
 position: absolute;
