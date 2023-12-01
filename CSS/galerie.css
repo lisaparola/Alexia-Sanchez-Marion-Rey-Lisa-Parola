@@ -409,15 +409,147 @@ letter-spacing: 1.6px;
 @media only screen and (max-width: 360px) and (max-height: 640px){
 
     body {
-background-color:#F2F0ED;
+max-width: 360px;
 margin: auto;
+    }
+
+header {
+position: relative;
+background: #000;
+margin-left: -48px;
+width: 408px;
+height: 40px;
+flex-shrink: 0;
 }
-    
-.populaires-container {
+
+.logo {
+position: relative;
+top: 3px;
+left: 60px;
+width: 40px;
+}
+
+h1{
+position: relative;
+top: -38px;
+margin-left: 50px;
+color: #FAEBDC;
+font-size: 15px;
+font-family: 'Simonetta', serif;
+}
+
+#ligne {
+position: relative;
+text-align: center;
+top: -48px; 
+left: 22px;
+background: #FAEBDC;
+width: 210px;
+height: 0.1px;
+
+}
+
+#PD {
+position: relative;
+top: -56px;
+margin-left: 342px;
+color: #FAEBDC;
+font-family: 'Simonetta',serif;
+font-size: 7px;
+font-weight: 400;
+}
+
+nav ul li a{
+position: relative;
+color:#FAEBDC;
+background-color:#000;
+display: flex;
+width: 58px;
+height: 18px;
+flex-direction: column;
+font-family: 'Simonetta';
+font-size: 8px;
+letter-spacing: 1px;
+top: -15px;
+margin-left:-42px;
+left: -10px;
+text-decoration: none;
+}
+
+nav ul li:nth-child(2) a {
+color: #000;
+background-color:#FAEBDC;
+}
+
+nav ul li:nth-child(3) a:hover {
+background-color:  #242220;
+}
+
+nav ul li:nth-child(2) a:hover {
+background-color:  #E0C7AF;
+}
+
+nav ul li:nth-child(1) a:hover {
+background-color:#242220;
+}
+
+nav ul{
+list-style: none;
+}
+
+nav ul li{
+margin: 12px;
+display: inline-block;
+}
+
+nav{
+display: inline-block;
+}
+
+    .populaires-container {
     margin-top: -1100px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
     }
-    
 
+footer {
+position: absolute;
+margin-top: 170px;
+margin-left: -50px;
+width: 408px;
+height: 48px;
+flex-shrink: 0;
+background: #000;
+}
+
+#titres, #localisation, #contact {
+color: #FAEBDC;
+font-family: 'Simonetta';
+}
+
+#titres {
+width: 310px;
+margin-top: 3px;
+margin-left: 100px;
+font-size: 10px;
+word-spacing: 90px;
+letter-spacing: 1.8px;
+}
+
+#localisation {
+display: flex;
+flex-shrink: 0;
+margin-left: 90px;
+margin-top: -1.5px;
+font-size: 7px;
+letter-spacing: 1px;
+}
+
+.contact {
+flex-shrink: 0;
+margin-left: 240px;
+margin-top: -22px;
+font-size: 7px;
+letter-spacing: 1px;
+}
