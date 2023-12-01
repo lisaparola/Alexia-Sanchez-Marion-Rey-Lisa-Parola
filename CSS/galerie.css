@@ -408,3 +408,15 @@ letter-spacing: 1.6px;
 
 @media only screen and (max-width: 360px) and (max-height: 640px){
 
+    body {
+background-color:#F2F0ED;
+margin: auto;
+}
+    
+.populaires-container {
+    margin-top: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
