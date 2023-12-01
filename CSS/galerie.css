@@ -414,7 +414,7 @@ margin: auto;
 }
     
 .populaires-container {
-    margin-top: 1500px;
+    margin: auto;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
