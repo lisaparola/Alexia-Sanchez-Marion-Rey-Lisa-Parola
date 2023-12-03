@@ -533,7 +533,7 @@ display: inline-block;
 #slide1.carousel-item img {
     max-width: 90%;
     margin-top:100px;
- margin-left:25px;
+ margin-left:30px;
     border: 10px solid #8D3807;
  background: url(<path-to-image>), lightgray -41.751px -23px / 120.419% 115.646% no-repeat;
  position:absolute;
@@ -546,7 +546,7 @@ display: inline-block;
     line-height: 24px;
     width: 1000%;
    padding-top:1000px;
-   margin-left: -2300px;
+   margin-left: -2150px;
 }
 
 #slide1.carousel-item p.additional-text {
@@ -555,9 +555,7 @@ display: inline-block;
     font: 400 20px/1 'Simonetta', serif;
     line-height: 24px;
     margin-left: 30px;
-    width: 90%
-    position: relative;
-    padding-bottom: auto;
+    width: 95%
 }
 
 #slide1.carousel-item h2.image-title {
@@ -574,13 +572,13 @@ display: inline-block;
 #slide1.carousel-item .sub-text {
   color: #000;
 font-family: Sora;
-font-size: 20px;
+font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: 25px;
- margin-top: 430px;
+ margin-top: 405px;
  position: absolute;
- margin-left: 370px;
+ margin-left: 380px;
  width: 50%;
 }
 
@@ -679,7 +677,7 @@ display: none;
 }
 
 .carousel-next {
-    left: 515px;
+    left: 495px;
     top: 770px;
     transform: translateY(-50%);
 }
@@ -819,3 +817,4 @@ letter-spacing: 1px;
 list-style: none;
 }
 }
+
