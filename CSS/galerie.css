@@ -171,60 +171,58 @@ line-height: 25px;
 }
 
 #slide2.carousel-item img {
-  max-width: 90%;
-    margin-top:120px;
- margin-left:30px;
+    max-width: 48%;
+    margin-right: 20px;
+    margin-top: 30px;
     border: 10px solid #8D3807;
- background: url(<path-to-image>), lightgray -41.751px -23px / 120.419% 115.646% no-repeat;
- position:absolute;
+    background: url(<path-to-image>), lightgray -41.751px -23px / 120.419% 115.646% no-repeat;
 }
 
 #slide2.carousel-item p.main-text {
-   color: var(--Grey, #65635F);
+    color: var(--Grey, #65635F);
     text-align: center;
+    position: absolute;
     font: 400 20px/1 'Simonetta', serif;
     line-height: 24px;
-    width: 1000%;
-   padding-top:1000px;
-   margin-left: -2150px;
+    width: 50%;
+    margin-top:-300px;
+    margin-left: 600px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
 }
 
-
 #slide2.carousel-item p.additional-text {
-  color: var(--Grey, #65635F);
+    color: var(--Grey, #65635F);
     text-align: justify;
     font: 400 20px/1 'Simonetta', serif;
     line-height: 24px;
-    margin-left: 30px;
- margin-top: 1100px;
-    width: 95%
+    padding-left: -250px;
+    width: 45%;
+    margin-top: 80px;
 }
 
-
 #slide2.carousel-item h2.image-title {
- color: #000;
+    color: #000;
     font-family: Sora;
-    font-size: 17px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: 48px;
-    padding-top:160px;
-    margin-left:50px;
- width: 95%
+    position: absolute;
+    margin-top: -320px;
+    margin-left:30px;
 }
 
-
 #slide2.carousel-item .sub-text {
- color: #000;
+  color: #000;
 font-family: Sora;
-font-size: 15px;
+font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 25px;
  margin-top: 410px;
  position: absolute;
- margin-left: 297px;
- width: 50%;
+ margin-left: 330px;
 }
 
 #slide1, #slide2, #slide3 {
@@ -585,58 +583,60 @@ line-height: 25px;
 }
 
 #slide2.carousel-item img {
-    max-width: 48%;
-    margin-right: 20px;
-    margin-top: 30px;
+  max-width: 90%;
+    margin-top:120px;
+ margin-left:30px;
     border: 10px solid #8D3807;
-    background: url(<path-to-image>), lightgray -41.751px -23px / 120.419% 115.646% no-repeat;
+ background: url(<path-to-image>), lightgray -41.751px -23px / 120.419% 115.646% no-repeat;
+ position:absolute;
 }
 
 #slide2.carousel-item p.main-text {
-    color: var(--Grey, #65635F);
+   color: var(--Grey, #65635F);
     text-align: center;
-    position: absolute;
     font: 400 20px/1 'Simonetta', serif;
     line-height: 24px;
-    width: 50%;
-    margin-top:-300px;
-    margin-left: 600px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 15px;
+    width: 1000%;
+   padding-top:1000px;
+   margin-left: -2150px;
 }
 
+
 #slide2.carousel-item p.additional-text {
-    color: var(--Grey, #65635F);
+  color: var(--Grey, #65635F);
     text-align: justify;
     font: 400 20px/1 'Simonetta', serif;
     line-height: 24px;
-    padding-left: -250px;
-    width: 45%;
-    margin-top: 80px;
+    margin-left: 30px;
+ margin-top: 1100px;
+    width: 95%
 }
 
+
 #slide2.carousel-item h2.image-title {
-    color: #000;
+ color: #000;
     font-family: Sora;
-    font-size: 20px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 600;
     line-height: 48px;
-    position: absolute;
-    margin-top: -320px;
-    margin-left:30px;
+    padding-top:160px;
+    margin-left:50px;
+ width: 95%
 }
 
+
 #slide2.carousel-item .sub-text {
-  color: #000;
+ color: #000;
 font-family: Sora;
-font-size: 20px;
+font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: 25px;
  margin-top: 410px;
  position: absolute;
- margin-left: 330px;
+ margin-left: 297px;
+ width: 50%;
 }
 
 #slide1, #slide2, #slide3 {
