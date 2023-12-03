@@ -697,79 +697,83 @@ display: none;
 .populaires-container h2 {
   color: #000;
 font-family: Sora;
-font-size: 24px;
+font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
 position: absolute;
-margin-top: -100px;
-margin-left: -900px
+margin-top: -300px;
+margin-left: 0px
 }
 
-.populaire-item {
-    width: 200px;
-    display: flex;
-    flex-direction:column;
-    align-items: justify;
-    margin-top: 20px;
-}
-
-.populaire-item:nth-child(1) img {
-  width: 100%;
-  height: auto;
-  margin-top: -100px;
+.populaires-container h2 {
+  color: #000;
+font-family: Sora;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: absolute;
+margin-top: -300px;
+margin-left: 0px
 }
 
 .populaire-item:nth-child(2) img {
-  width: 100%;
+  width: 180%;
   height: auto;
+ margin-top:-250px;
+ margin-left: 30px;
 }
 
 .populaire-item:nth-child(3) img {
-  width: 100%;
+  width: 115%;
   height: auto;
-  margin-top: 55px;
+  margin-top: -220px;
+ margin-left:190px;
 }
 
 .populaire-item:nth-child(4) img {
-  width: 100%;
+  width: 170%;
   height: auto;
-  margin-top: 43px;
+  margin-top: 260px;
+ margin-left:20px;
 }
 
 .populaire-item.special-item img {
-    width: 120%;
+    width: 240%;
     height: auto;
-    margin-top: 191px;
-margin-left: -20px;
+    margin-top: 300px;
+margin-left: -450px;
 
 }
 
 
-.populaire-item h3 {
+.populaire-item:nth-child(2) h3 {
   color: #000;
-text-align: center;
+text-align: right;
 font-family: Sora;
-font-size: 15px;
+font-size: 12px;
 font-style: normal;
 font-weight: 600;
-line-height: 24px;
- margin: 2px 0
+line-height: 20px;
+ margin-right:-150px;
+ margin-top:20px;
 }
 
-.populaire-item p.description {
+.populaire-item:nth-child(2) .description {
   color: var(--Grey, #65635F);
-  text-align: center;
+  text-align: right;
 font-family: Sora;
-font-size: 14px;
+font-size: 12px;
 font-style: normal;
 font-weight: 400;
-line-height: 16px;
- margin: 2px 0
+line-height: 10px;
+ width:120%;
+ margin-left:25px;
 
 }
 
-.populaire-item p.sous-texte {
+.populaire-item:nth-child(2) .sous-texte {
   color: var(--Grey, #65635F);
   text-align: center;
 font-family: Simonetta;
@@ -777,12 +781,127 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 16px;
- margin: 2px 0
+ width:150%;
+ margin-left:0px;
+}
+
+ .populaire-item:nth-child(3) h3 {
+  color: #000;
+text-align: right;
+font-family: Sora;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+ margin-right:-225px;
+ margin-top:20px;
+}
+
+.populaire-item:nth-child(3) .description {
+  color: var(--Grey, #65635F);
+  text-align: right;
+font-family: Sora;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 10px;
+ width:120%;
+ margin-left:176px;
+
+}
+
+.populaire-item:nth-child(3) .sous-texte {
+  color: var(--Grey, #65635F);
+  text-align: center;
+font-family: Simonetta;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+ width:150%;
+ margin-left:95px;
+}
+
+ .populaire-item:nth-child(4) h3 {
+  color: #000;
+text-align: right;
+font-family: Sora;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+ margin-top:20px;
+  margin-left:-19px;
+  width:150%;
+}
+
+.populaire-item:nth-child(4) .description {
+  color: var(--Grey, #65635F);
+  text-align: right;
+font-family: Sora;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 10px;
+ width:150%;
+ margin-left:0px;
+
+}
+
+.populaire-item:nth-child(4) .sous-texte {
+  color: var(--Grey, #65635F);
+  text-align: center;
+font-family: Simonetta;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+ width:150%;
+ margin-left:-9px;
+}
+
+  .populaire-item.special-item h3 {
+  color: #000;
+text-align: right;
+font-family: Sora;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+ margin-top:20px;
+  margin-left:-520px;
+  width:150%;
+}
+
+.populaire-item.special-item .description {
+  color: var(--Grey, #65635F);
+  text-align: right;
+font-family: Sora;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 10px;
+ width:150%;
+ margin-left:-515px;
+
+}
+
+.populaire-item.special-item .sous-texte {
+  color: var(--Grey, #65635F);
+  text-align: center;
+font-family: Simonetta;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+ width:150%;
+ margin-left:-476px;
+ margin-top:4px;
 }
 
 footer {
 position: absolute;
-margin-top: 290px;
+margin-top: 800px;
 width: 600px;
 height: 80px;
 flex-shrink: 0;
@@ -806,16 +925,16 @@ letter-spacing: 1.8px
 #localisation {
 display: flex;
 flex-shrink: 0;
-margin-top: 20px;
+margin-top: 10px;
 margin-left: 80px;
 font-size: 10px;
 letter-spacing: 1px;
 }
 
-.contact {
+#contact {
 flex-shrink: 0;
-margin-left: 320px;
-margin-top: -33px;
+margin-left: 375px;
+margin-top: -38px;
 font-size: 10px;
 letter-spacing: 1px;
 list-style: none;
