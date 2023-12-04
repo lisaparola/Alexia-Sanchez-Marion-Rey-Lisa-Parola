@@ -40,7 +40,7 @@ height: 0.1px;
 #PD {
 position: relative;
 top: -150px;
-left: 1085px;
+margin-left: 1080px;
 color: #FAEBDC;
 font-family: 'Simonetta',serif;
 font-size: 20px;
@@ -61,6 +61,7 @@ font-size: 20px;
 letter-spacing: 2px;
 margin-left:-50px;
 margin-right:16px;
+text-decoration: none;
 }
 
 nav ul li:nth-child(2) a {
@@ -82,15 +83,15 @@ display: inline-block;
 }
 
 nav ul li:nth-child(3) a:hover {
-background-color: #242220;
+background-color:  #242220;
 }
 
 nav ul li:nth-child(2) a:hover {
-background-color: #E0C7AF;
+background-color:  #E0C7AF;
 }
 
 nav ul li:nth-child(1) a:hover {
-background-color: #242220;
+background-color:#242220;
 }
 
 .lieu{
@@ -143,8 +144,8 @@ margin-top:-70px;
 
 #suite{
 margin-left:820px;
-padding-bottom:750px;
-margin-top:-680px;
+padding-bottom:700px;
+margin-top:-700px;
 font-weight:900;
 font-family: 'Playfair Display';
 }
@@ -157,7 +158,7 @@ font-size: 14px;
 font-style: normal;
 line-height: normal; 
 border-collapse: collapse;
-margin-top: -730px;
+margin-top: -650px;
 margin-left:680px;
 position:relative;
 }
@@ -216,7 +217,7 @@ color: #000;
 text-align: left;
 }
 
-footer{
+footer {
 position: absolute;
 margin-top: 130px;
 width: 1280px;
