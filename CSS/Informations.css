@@ -143,8 +143,8 @@ margin-top:-70px;
 
 #suite{
 margin-left:820px;
-padding-bottom:700px;
-margin-top:-700px;
+padding-bottom:750px;
+margin-top:-680px;
 font-weight:900;
 font-family: 'Playfair Display';
 }
@@ -157,7 +157,7 @@ font-size: 14px;
 font-style: normal;
 line-height: normal; 
 border-collapse: collapse;
-margin-top: -650px;
+margin-top: -730px;
 margin-left:680px;
 position:relative;
 }
@@ -255,3 +255,94 @@ margin-top: -50px;
 font-size: 15px;
 letter-spacing: 1.6px;
 }
+
+	@media screen and (max-width: 640px){
+		header{
+			width:640px;
+		}
+
+		.logo{
+			margin-top: 20px;
+			margin-left: -30px;
+			width: 50px;
+		}
+
+		h1{
+			width:450px;
+			margin-left:50px;
+			margin-top:45px;
+		}
+
+		#ligne{
+			width:498px;
+
+		}
+
+		nav ul li a{
+			width:140px;
+		}
+
+		.lieu{
+			width:400px;
+		}
+
+		h3{
+			margin-left:30px;
+		}
+
+		p{
+			width:465px;
+		}
+
+		.salon{
+			width:400px;
+			margin-left:30px;
+		}
+
+		#suite{
+			margin-left :80px;
+			margin-top: 40px;
+		}
+
+		table{
+			margin-left:10px;
+			}
+
+		input[type="text"]{
+			width:470px;
+		}
+
+		#textS{
+			width:470px;
+		}
+
+		#categories{
+			width:476px;
+		}
+
+		#soumettre{
+			width:476px;
+		}
+
+		footer{
+			margin-top:20px;
+			width:500px;
+		}
+
+		#titres{
+			font-size:15px;
+			margin-left:45px;
+			word-spacing: 150px;
+		}
+
+		#localisation{
+			font-size:10px;
+			margin-left:10px;
+		}
+
+		#contact{
+			font-size:10px;
+			padding-top:10px;
+			margin-left:320px;
+		}
+	}
