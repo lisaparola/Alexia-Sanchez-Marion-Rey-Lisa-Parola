@@ -40,7 +40,7 @@ height: 0.1px;
 #PD {
 position: relative;
 top: -150px;
-left: 1070px;
+left: 1085px;
 color: #FAEBDC;
 font-family: 'Simonetta',serif;
 font-size: 20px;
@@ -59,9 +59,8 @@ text-align: center;
 font-family: 'Simonetta';
 font-size: 20px;
 letter-spacing: 2px;
-margin-left: -50px;
-margin-right: 16px;
-text-decoration: none;
+margin-left:-50px;
+margin-right:16px;
 }
 
 nav ul li:nth-child(2) a {
@@ -116,7 +115,7 @@ line-height: normal;
 margin-left:60px;
 }
 
-p{
+#sujet{
 width: 519px;
 height: 173px;
 flex-shrink: 0;
@@ -158,7 +157,7 @@ font-size: 14px;
 font-style: normal;
 line-height: normal; 
 border-collapse: collapse;
-margin-top: -800px;
+margin-top: -650px;
 margin-left:680px;
 position:relative;
 }
@@ -219,7 +218,7 @@ text-align: left;
 
 footer {
 position: absolute;
-margin-top: 100px;
+margin-top: 130px;
 width: 1280px;
 height: 95px;
 flex-shrink: 0;
@@ -246,105 +245,13 @@ flex-shrink: 0;
 margin-left: 230px;
 font-size: 15px;
 letter-spacing: 1.6px;
-margin-top:-145px;
 }
 
 #contact {
 display: flex;
 flex-shrink: 0;
 margin-left: 720px;
-margin-top: -205px;
+margin-top: -50px;
 font-size: 15px;
 letter-spacing: 1.6px;
 }
-
-	@media screen and (max-width: 640px){
-		header{
-			width:500px;
-		}
-
-		.logo{
-			margin-top: 20px;
-			margin-left: -30px;
-			width: 50px;
-		}
-
-		h1{
-			width:450px;
-			margin-left:50px;
-			margin-top:45px;
-		}
-
-		#ligne{
-			width:498px;
-
-		}
-
-		nav ul li a{
-			width:140px;
-		}
-
-		.lieu{
-			width:400px;
-		}
-
-		h3{
-			margin-left:30px;
-		}
-
-		p{
-			width:465px;
-		}
-
-		.salon{
-			width:400px;
-			margin-left:30px;
-		}
-
-		#suite{
-			margin-left :80px;
-			margin-top: 40px;
-		}
-
-		table{
-			margin-left:10px;
-			}
-
-		input[type="text"]{
-			width:470px;
-		}
-
-		#textS{
-			width:470px;
-		}
-
-		#categories{
-			width:476px;
-		}
-
-		#soumettre{
-			width:476px;
-		}
-
-		footer{
-			margin-top:20px;
-			width:500px;
-		}
-
-		#titres{
-			font-size:15px;
-			margin-left:45px;
-			word-spacing: 150px;
-		}
-
-		#localisation{
-			font-size:10px;
-			margin-left:10px;
-		}
-
-		#contact{
-			font-size:10px;
-			padding-top:10px;
-			margin-left:320px;
-		}
-	}
