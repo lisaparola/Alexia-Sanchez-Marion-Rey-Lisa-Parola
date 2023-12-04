@@ -942,9 +942,7 @@ list-style: none;
 }
 }
 
-@media only screen and (max-width: 360px) and (max-height: 640px) {
-
-  @media only screen and (max-width: 360px) and (max-height: 640px) {
+ @media only screen and (max-width: 360px) and (max-height: 640px) {
 
   body {
   max-width: 360px;
@@ -1220,200 +1218,200 @@ list-style: none;
 
 
   .populaires-container h2 {
-    color: #000;
-  font-family: Sora;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 0px
-  }
+        color: #000;
+      font-family: Sora;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      position: absolute;
+      margin-top: 70px;
+      margin-left: 0px
+      }
 
-  .populaire-item:nth-child(2) img {
-    width: 200%;
-    height: auto;
-   margin-top:140px;
-   margin-left: 20px;
-  }
+      .populaire-item:nth-child(2) img {
+        max-width: 122px;
+    height: 221px;
+       margin-top:130px;
+       margin-left: 20px;
+      }
 
-  .populaire-item:nth-child(3) img {
-    width: 60%;
-    height: auto;
-    margin-top: 160px;
-   margin-left:100px;
-  }
+      .populaire-item:nth-child(3) img {
 
-  .populaire-item:nth-child(4) img {
-    width: 200%;
-    height: auto;
-    margin-top: 480px;
-   margin-left:-90px;
-  }
+        max-width: 119px;
+        height: 181px;
+        margin-top: 110px;
+       margin-left:120px;
+      }
 
-  .populaire-item.special-item img {
-      width: 240%;
-      height: auto;
-      margin-top: 300px;
-  margin-left: -450px;
+      .populaire-item:nth-child(4) img {
+        max-width: 123px;
+    height: 176px;
+        margin-top: 350px;
+       margin-left:-10px;
+      }
 
-  }
+      .populaire-item.special-item img {
+         max-width: 184.968px;
+    height: 142.93px;
+    flex-shrink: 0;
+          margin-top: 410px;
+      margin-left: -277px;
+
+      }
 
 
-  .populaire-item:nth-child(2) h3 {
-   color: #000;
- font-family: Sora;
- font-size: 8px;
- font-style: normal;
- font-weight: 600;
- line-height: 20px;
-  margin-top:10px;
-  white-space:nowrap;
-   margin-right:-123px;
+      .populaire-item:nth-child(2) h3 {
+       color: #000;
+     font-family: Sora;
+     font-size: 8px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 3px;
+      margin-top:10px;
+      white-space:nowrap;
+       margin-right:-125px;
 
- }
+     }
 
- .populaire-item:nth-child(2) .description {
-   color: var(--Grey, #65635F);
-  width:190%;
-  text-align: right;
- font-family: Sora;
-  font-size: 9px;
- font-weight: 400;
- line-height: 8px;
-  margin-left:13px;
+     .populaire-item:nth-child(2) .description {
+       color: var(--Grey, #65635F);
+      width:200%;
+      text-align: right;
+     font-family: Sora;
+      font-size: 9px;
+     font-weight: 400;
+     line-height: 10px;
+      margin-left:10px;
 
- }
+     }
 
- .populaire-item:nth-child(2) .sous-texte {
-   color: var(--Grey, #65635F);
-   text-align: center;
- font-family: Simonetta;
- font-size: 9px;
- font-style: normal;
- font-weight: 400;
-  width:190%;
-  margin-left:5px;
- }
+     .populaire-item:nth-child(2) .sous-texte {
+       color: var(--Grey, #65635F);
+       text-align: center;
+     font-family: Simonetta;
+     font-size: 9px;
+     font-style: normal;
+     font-weight: 400;
+      line-height:4px;
+      width:190%;
+      margin-left:3px;
+     }
 
-   .populaire-item:nth-child(3) h3 {
-    color: #000;
-  text-align: right;
-  font-family: Sora;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 20px;
-   margin-right:-225px;
-   margin-top:20px;
-  }
+       .populaire-item:nth-child(3) h3 {
+        color: #000;
+      text-align: right;
+      font-family: Sora;
+      font-size: 8px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 12px;
+       margin-right:-129px;
+       margin-top:4px;
+        white-space:nowrap;
+      }
 
-  .populaire-item:nth-child(3) .description {
-    color: var(--Grey, #65635F);
-    text-align: right;
-  font-family: Sora;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 10px;
-   width:120%;
-   margin-left:176px;
+      .populaire-item:nth-child(3) .description {
+        color: var(--Grey, #65635F);
+        text-align: right;
+      font-family: Sora;
+      font-size: 8px;
+        line-height:1px;
+      font-style: normal;
+      font-weight: 400;
+       margin-left:94px;
 
-  }
+      }
 
-  .populaire-item:nth-child(3) .sous-texte {
-    color: var(--Grey, #65635F);
-    text-align: center;
-  font-family: Simonetta;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
-   width:150%;
-   margin-left:95px;
-  }
+      .populaire-item:nth-child(3) .sous-texte {
+        color: var(--Grey, #65635F);
+        text-align: center;
+      font-family: Simonetta;
+      font-size: 8px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 10px;
+       margin-left:40px;
+      }
 
-   .populaire-item:nth-child(4) h3 {
-    color: #000;
-  text-align: right;
-  font-family: Sora;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 20px;
-   margin-top:20px;
-    margin-left:-19px;
-    width:150%;
-  }
+       .populaire-item:nth-child(4) h3 {
+        color: #000;
+      text-align: right;
+      font-family: Sora;
+      font-size: 8px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px;
+       margin-top:0px;
+        margin-left:-42px;
+      }
 
-  .populaire-item:nth-child(4) .description {
-    color: var(--Grey, #65635F);
-    text-align: right;
-  font-family: Sora;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 10px;
-   width:150%;
-   margin-left:0px;
+      .populaire-item:nth-child(4) .description {
+        color: var(--Grey, #65635F);
+       white-space:nowrap;
+        text-align: right;
+      font-family: Sora;
+      font-size: 8px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 10px;
+       margin-left:-28px;
+       margin-top:-8px;
 
-  }
+      }
 
-  .populaire-item:nth-child(4) .sous-texte {
-    color: var(--Grey, #65635F);
-    text-align: center;
-  font-family: Simonetta;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
-   width:150%;
-   margin-left:-9px;
-  }
+      .populaire-item:nth-child(4) .sous-texte {
+        color: var(--Grey, #65635F);
+        text-align: center;
+      font-family: Simonetta;
+      font-size: 8px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px;
+       margin-left:-39px;
+       margin-top:-6px;
+      }
 
-    .populaire-item.special-item h3 {
-    color: #000;
-  text-align: right;
-  font-family: Sora;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 20px;
-   margin-top:20px;
-    margin-left:-520px;
-    width:150%;
-  }
+        .populaire-item.special-item h3 {
+        color: #000;
+      text-align: right;
+      font-family: Sora;
+      font-size: 8px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 10px;
+       margin-top:2px;
+        margin-left:-283px;
+      }
 
-  .populaire-item.special-item .description {
-    color: var(--Grey, #65635F);
-    text-align: right;
-  font-family: Sora;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 10px;
-   width:150%;
-   margin-left:-515px;
+      .populaire-item.special-item .description {
+        color: var(--Grey, #65635F);
+        text-align: right;
+      font-family: Sora;
+      font-size: 8px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 2px;
+       margin-left:-279px;
 
-  }
+      }
 
-  .populaire-item.special-item .sous-texte {
-    color: var(--Grey, #65635F);
-    text-align: center;
-  font-family: Simonetta;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
-   width:150%;
-   margin-left:-476px;
-   margin-top:4px;
-  }
+      .populaire-item.special-item .sous-texte {
+        color: var(--Grey, #65635F);
+        text-align: center;
+      font-family: Simonetta;
+      font-size: 8px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 10px;
+       width:150%;
+       margin-left:-280px;
+       margin-top:1px;
+      }
 
   footer {
   position: absolute;
-  margin-top: 1000px;
+  margin-top: 700px;
   margin-left: -50px;
   width: 408px;
   height: 48px;
@@ -1444,9 +1442,9 @@ list-style: none;
   letter-spacing: 1px;
   }
 
-  .contact {
+  #contact {
   flex-shrink: 0;
-  margin-left: 240px;
+  margin-left: 280px;
   margin-top: -22px;
   font-size: 7px;
   letter-spacing: 1px;
