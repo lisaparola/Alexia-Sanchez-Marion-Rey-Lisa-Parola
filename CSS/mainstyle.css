@@ -169,7 +169,7 @@ flex-shrink: 0;
 background: rgba(229, 214, 199, 0.66);
 padding: 1px 20px 15px;
 width: 830px;
-margin-top: 0px;
+margin-top: px;
 margin-left: 80px;
 color: #000;
 text-align: justify;
@@ -436,25 +436,25 @@ letter-spacing: 2px;
 position: absolute;
 flex-shrink: 0;
 margin-left: 35px;
-margin-top: -28px;
-width: 202px;
-height: 400px;
+margin-top: -25px;
+width: 203px;
+height: 300px;
  }
 
 #fond {
 flex-shrink: 0;
 width: 190px;
-height: 370px;
+height: 272px;
 border: 2px solid #000;
 background: rgba(144, 103, 62, 0.66);
-margin-top: -592px;
+margin-top: -515px;
 margin-left: 35px;
 }
 
 .signature {
 position: absolute;
 margin-left: 140px;
-margin-top: 380px;
+margin-top: 285px;
 width: 110px;
 }
 
@@ -670,7 +670,7 @@ height: 55px;
 flex-shrink: 0;
 background: rgba(229, 214, 199, 0.66);
 padding: 1px 15px 1px;
-margin-top: 0px;
+margin-top: px;
 margin-left: 10px;
 color: #000;
 text-align: justify;
