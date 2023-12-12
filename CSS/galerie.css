@@ -268,6 +268,25 @@ display: none;
     transform: translateY(-50%);
 }
 
+.populaire-item:hover .info-overlay {
+    display: block;
+}
+
+
+.info-overlay {
+    display: none;
+    position: absolute;
+    top: 1450px;
+    left: 700px;
+    width: 50%;
+    height: 50%;
+    color: #000;
+font-family: Sora;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px;
+}
 
 .populaires-container {
     margin-top: -100px;
