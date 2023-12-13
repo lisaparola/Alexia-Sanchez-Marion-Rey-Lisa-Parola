@@ -1,531 +1,15 @@
 
+@media only screen and (min-width: 360px) and (max-width: 500px) {
+
 body {
 background-color:#F2F0ED;
-width: 1280px;
 margin: auto;
 }
 
 header {
 position: relative;
 background: #000;
-width: 1280px;
-height: 80px;
-flex-shrink: 0;
-}
-
-.logo {
-position: relative;
-top: 2px;
-left: 40px;
-width: 90px;
-}
-
-h1{
-position: relative;
-top: -96px;
-text-align: center;
-color: #FAEBDC;
-font-size: 40px;
-font-family: 'Simonetta', serif;
-font-weight: 400;
-}
-
-#ligne {
-position: relative;
-top: -125px;
-background: #FAEBDC;
-width: 764px;
-height: 0.1px;
-}
-
-#PD {
-position: relative;
-top: -150px;
-margin-left: 1080px;
-color: #FAEBDC;
-font-family: 'Simonetta',serif;
-font-size: 20px;
-font-weight: 400;
-}
-
-nav ul li a{
-position: relative;
-color:#FAEBDC;
-background-color:#000;
-display: flex;
-width: 152px;
-height: 50px;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-font-family: 'Simonetta';
-font-size: 20px;
-letter-spacing: 2px;
-margin-left:-50px;
-margin-right:16px;
-text-decoration: none;
-}
-
-nav ul li:nth-child(2) a {
-color: #000;
-background-color:#FAEBDC;
-}
-
-nav ul li:nth-child(3) a:hover {
-background-color:  #242220;
-}
-
-nav ul li:nth-child(2) a:hover {
-background-color:  #E0C7AF;
-}
-
-nav ul li:nth-child(1) a:hover {
-background-color:#242220;
-}
-
-nav ul{
-list-style: none;
-}
-
-nav ul li{
-margin: 10px;
-display: inline-block;
-}
-
-nav{
-display: inline-block;
-}
-
-#oeuvre-accueil {
-margin-top: -80px;
-}
-
-#titre {
-flex-shrink: 0;
-position: absolute;
-margin-top: 90px;
-margin-left: 180px;
-font-size: 20px;
-font-family: 'Sora';
-font-weight: bold;
-letter-spacing: 2px;
-}
-
-.accueil {
-margin-left: 35px;
-margin-top: 120px;
-width: 715px;
-height: 327px;
-flex-shrink: 0;
-border: 10px solid #7A4938;
-}
-
-#peintre {
-position: absolute;
-flex-shrink: 0;
-margin-top: 1px;
-margin-left: 565px;
-font-size: 20px;
-font-family: 'Sora';
-font-weight: 400;
-letter-spacing: 2px;
-}
-
-#texte {
-position: absolute;
-width: 400px;
-flex-shrink: 0;
-margin-top: -330px;
-margin-left: 830px;
-font-family: 'Simonetta';
-text-align: justify;
-font-size: 18px;
-color: #65635F;
-letter-spacing: 2px;
-}
-
-#Dechewsky1 {
-flex-shrink: 0;
-height: 320px;
-flex-shrink: 0;
-background: rgba(229, 214, 199, 0.66);
-padding: 1px 20px 15px;
-width: 830px;
-margin-top: 85px;
-margin-left: 80px;
-color: #000;
-text-align: justify;
-font-family: 'Simonetta';
-font-size: 22px;
-font-style: normal;
-line-height: normal;
-letter-spacing: 2px;
-}
-
-#Dechewsky2 {
-flex-shrink: 0;
-height: 200px;
-flex-shrink: 0;
-background: rgba(229, 214, 199, 0.66);
-padding: 1px 20px 15px;
-width: 830px;
-margin-top: px;
-margin-left: 80px;
-color: #000;
-text-align: justify;
-font-family: 'Simonetta';
-font-size: 22px;
-font-style: normal;
-line-height: normal;
-letter-spacing: 2px;
-}
-
-
-.pd {
-position: absolute;
-flex-shrink: 0;
-margin-left: 1005px;
-margin-top: -28px;
-width: 222px;
-height: 340px;
- }
-
-#fond {
-flex-shrink: 0;
-width: 210px;
-height: 310px;
-border: 2px solid #000;
-background: rgba(144, 103, 62, 0.66);
-margin-top: -664px;
-margin-left: 1003px;
-}
-
-.signature {
-position: absolute;
-margin-left: 1035px;
-margin-top: 320px;
-width: 160px;
-}
-
-footer {
-position: absolute;
-margin-top: 430px;
-width: 1280px;
-height: 95px;
-flex-shrink: 0;
-background: #000;
-}
-
-#titres, #localisation, .contact {
-color: #FAEBDC;
-font-family: 'Simonetta';
-}
-
-#titres {
-width: 1030px;
-margin-top: 5px;
-margin-left: 250px;
-font-size: 18px;
-word-spacing: 350px;
-letter-spacing: 1.8px
-}
-
-#localisation {
-display: flex;
-flex-shrink: 0;
-margin-left: 230px;
-font-size: 15px;
-letter-spacing: 1.6px;
-}
-
-.contact {
-flex-shrink: 0;
-margin-left: 700px;
-margin-top: -50px;
-font-size: 15px;
-letter-spacing: 1.6px;
-list-style: none;
-}
-@media only screen and (max-width: 768px) and (max-height: 1024px) {
-    
-    body {
-max-width: 768px;
-margin: auto;
-    }
-
-header {
-position: relative;
-background: #000;
-width: 750px;
-height: 70px;
-flex-shrink: 0;
-
-}
-
-@media only screen and (max-width: 600px) and (max-height: 960px) {
-    
-    body {
-max-width: 600px;
-margin: auto;
-    }
-
-header {
-position: relative;
-background: #000;
-width: 600px;
-height: 70px;
-flex-shrink: 0;
-}
-
-.logo {
-position: relative;
-top: 8px;
-left: 20px;
-width: 65px;
-}
-
-h1{
-position: relative;
-margin-left: 10px;
-top: -55px;
-text-align: center;
-color: #FAEBDC;
-font-size: 25px;
-font-family: 'Simonetta', serif;
-}
-
-#ligne {
-position: relative;
-top: -70px;
-background: #FAEBDC;
-width: 350px;
-height: 0.1px;
-}
-
-#PD {
-position: relative;
-top: -85px;
-margin-left: 490px;
-color: #FAEBDC;
-font-family: 'Simonetta',serif;
-font-size: 12px;
-font-weight: 400;
-}
-
-nav ul li a{
-position: relative;
-color:#FAEBDC;
-background-color:#000;
-display: flex;
-width: 100px;
-height: 40px;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-font-family: 'Simonetta';
-font-size: 15px;
-letter-spacing: 1px;
-margin-left:-45px;
-left: -10px;
-margin-right:16px;
-text-decoration: none;
-}
-
-nav ul li:nth-child(2) a {
-color: #000;
-background-color:#FAEBDC;
-}
-
-nav ul li:nth-child(3) a:hover {
-background-color:  #242220;
-}
-
-nav ul li:nth-child(2) a:hover {
-background-color:  #E0C7AF;
-}
-
-nav ul li:nth-child(1) a:hover {
-background-color:#242220;
-}
-
-nav ul{
-list-style: none;
-}
-
-nav ul li{
-margin: 10px;
-display: inline-block;
-}
-
-nav{
-display: inline-block;
-}
-
-#oeuvre-accueil {
-margin-top: -80px;
-}
-
-#titre {
-flex-shrink: 0;
-position: absolute;
-margin-top: 90px;
-margin-left: 145px;
-font-size: 15px;
-font-family: 'Sora';
-font-weight: bold;
-letter-spacing: 1px;
-}
-
-.accueil {
-margin-left: 32px;
-margin-top: 112px;
-width: 510px;
-height: 240px;
-flex-shrink: 0;
-border: 10px solid #7A4938;
-}
-
-#peintre {
-position: absolute;
-flex-shrink: 0;
-margin-top: 1px;
-margin-left: 428px;
-font-size: 12px;
-font-family: 'Sora';
-font-weight: 400;
-letter-spacing: 2px;
-}
-
-#texte {
-position: absolute;
-width: 550px;
-flex-shrink: 0;
-margin-top: 55px;
-margin-left: 30px;
-font-family: 'Simonetta';
-text-align: justify;
-font-size: 15px;
-color: #65635F;
-letter-spacing: 2px;
-}
-
-#Dechewsky1 {
-flex-shrink: 0;
-height: 410px;
-flex-shrink: 0;
-background: rgba(229, 214, 199, 0.66);
-padding: 1px 20px 15px;
-width: 295px;
-margin-top: 230px;
-margin-left: 255px;
-color: #000;
-text-align: justify;
-font-family: 'Simonetta';
-font-size: 15px;
-font-style: normal;
-line-height: normal;
-letter-spacing: 2px;
-}
-
-#Dechewsky2 {
-flex-shrink: 0;
-height: 150px;
-flex-shrink: 0;
-background: rgba(229, 214, 199, 0.66);
-padding: 1px 20px 15px;
-width: 520px;
-margin-top: 0px;
-margin-left: 30px;
-color: #000;
-text-align: justify;
-font-family: 'Simonetta';
-font-size: 15px;
-font-style: normal;
-line-height: normal;
-letter-spacing: 2px;
-}
-
-
-.pd {
-position: absolute;
-flex-shrink: 0;
-margin-left: 35px;
-margin-top: -25px;
-width: 203px;
-height: 300px;
- }
-
-#fond {
-flex-shrink: 0;
-width: 190px;
-height: 272px;
-border: 2px solid #000;
-background: rgba(144, 103, 62, 0.66);
-margin-top: -515px;
-margin-left: 35px;
-}
-
-.signature {
-position: absolute;
-margin-left: 140px;
-margin-top: 285px;
-width: 110px;
-}
-
-footer {
-position: absolute;
-margin-top: 290px;
-width: 600px;
-height: 80px;
-flex-shrink: 0;
-background: #000;
-}
-
-#titres, #localisation, .contact {
-color: #FAEBDC;
-font-family: 'Simonetta';
-}
-
-#titres {
-width: 500px;
-margin-top: 5px;
-margin-left: 100px;
-font-size: 16px;
-word-spacing: 140px;
-letter-spacing: 1.8px
-}
-
-#localisation {
-display: flex;
-flex-shrink: 0;
-margin-top: 20px;
-margin-left: 80px;
-font-size: 10px;
-letter-spacing: 1px;
-}
-
-.contact {
-flex-shrink: 0;
-margin-left: 320px;
-margin-top: -33px;
-font-size: 10px;
-letter-spacing: 1px;
-list-style: none;
-}
-}
-
-@media only screen and (max-width: 360px) and (max-height: 640px) {
-
-    body {
-max-width: 360px;
-margin: auto;
-    }
-
-header {
-position: relative;
-background: #000;
-margin-left: -48px;
-width: 408px;
+width: 100%;
 height: 40px;
 flex-shrink: 0;
 }
@@ -533,14 +17,15 @@ flex-shrink: 0;
 .logo {
 position: relative;
 top: 3px;
-left: 60px;
+left: 10px;
 width: 40px;
 }
 
 h1{
+display: flex;
+justify-content: center;
 position: relative;
 top: -38px;
-margin-left: 50px;
 color: #FAEBDC;
 font-size: 15px;
 font-family: 'Simonetta', serif;
@@ -548,46 +33,53 @@ font-family: 'Simonetta', serif;
 
 #ligne {
 position: relative;
-text-align: center;
+display: flex;
+justify-content: center;
 top: -48px; 
-left: 22px;
 background: #FAEBDC;
-width: 210px;
+width: 60%;
 height: 0.1px;
-
 }
 
 #PD {
 position: relative;
 top: -56px;
-margin-left: 342px;
+margin-left: 83%;
 color: #FAEBDC;
 font-family: 'Simonetta',serif;
 font-size: 7px;
 font-weight: 400;
+white-space: nowrap;
 }
+
 
 nav ul li a{
 position: relative;
 color:#FAEBDC;
 background-color:#000;
 display: flex;
-width: 58px;
-height: 18px;
+width: 70px;
+height: 20px;
 flex-direction: column;
 font-family: 'Simonetta';
-font-size: 8px;
-letter-spacing: 1px;
+font-size: 10px;
+text-align: center;
+justify-content: center;
+letter-spacing: 1.1px;
 top: -15px;
-margin-left:-42px;
-left: -10px;
+margin-left: -75%;
 text-decoration: none;
-}
-
+} 
+    
 nav ul li:nth-child(2) a {
 color: #000;
 background-color:#FAEBDC;
+margin-left: -115%;
 }
+    
+nav ul li:nth-child(3) a {
+margin-left: -155%;
+    }
 
 nav ul li:nth-child(3) a:hover {
 background-color:  #242220;
@@ -613,24 +105,29 @@ display: inline-block;
 nav{
 display: inline-block;
 }
+    
+#oeuvre-accueil {
+margin-top: -70px;
+}
+
 
 #titre {
 white-space:nowrap;
 flex-shrink: 0;
 position: absolute;
 margin-top: 58px;
+margin-left: 25%;
 font-size: 8px;
-margin-left: 88px;
 font-family: 'Sora';
 font-weight: bold;
 letter-spacing: 1px;
 }
 
 .accueil {
-margin-left: 20px;
+margin-left: 6%;
 margin-top: 70px;
-width: 310px;
-height: 145px;
+width: 86%;
+height: 160px;
 flex-shrink: 0;
 border: 5px solid #7A4938;
 }
@@ -640,7 +137,7 @@ border: 5px solid #7A4938;
 position: absolute;
 flex-shrink: 0;
 margin-top: -3px;
-margin-left: 260px;
+margin-left: 72%;
 font-size: 6px;
 font-family: 'Sora';
 letter-spacing: 2px;
@@ -648,10 +145,10 @@ letter-spacing: 2px;
 
 #texte {
 position: absolute;
-width: 320px;
+width: 88%;
 flex-shrink: 0;
 margin-top: 25px;
-margin-left: 20px;
+margin-left: 6%;
 font-family: 'Simonetta';
 text-align: justify;
 font-size: 7px;
@@ -660,14 +157,14 @@ letter-spacing: 1px;
 }
     
 #Dechewsky1 {
- width: 200px;
+ width: 55.5%;
 flex-shrink: 0;
-height: 130px;
+height: 135px;
 flex-shrink: 0;
 background: rgba(229, 214, 199, 0.66);
 padding: 1px 15px 1px;
 margin-top: 115px;
-margin-left: 120px;
+margin-left: 34%;
 color: #000;
 text-align: justify;
 font-family: 'Simonetta';
@@ -678,14 +175,14 @@ letter-spacing: 1px;
 }
     
 #Dechewsky2 {
- width: 310px;
+ width: 86.6%;
 flex-shrink: 0;
 height: 55px;
 flex-shrink: 0;
 background: rgba(229, 214, 199, 0.66);
 padding: 1px 15px 1px;
-margin-top: px;
-margin-left: 10px;
+margin-top: 0px;
+margin-left: 2.8%;
 color: #000;
 text-align: justify;
 font-family: 'Simonetta';
@@ -698,7 +195,7 @@ letter-spacing: 1px;
 .pd {
 flex-shrink: 0;
 position: absolute;
-margin-left: 20px;
+margin-left: 5.5%;
 margin-top: -10px;
 width: 90px;
 height: 130px;
@@ -711,22 +208,21 @@ width: 84px;
 height: 119px;
 border: 1px solid #000;
 background: rgba(144, 103, 62, 0.66);
-margin-top: -188px;
-margin-left: 20px;
+margin-top: -194px;
+margin-left: 5.5%;
 }
 
 .signature {
 position: absolute;
-margin-left: 65px;
+margin-left: 20%;
 margin-top: 122px;
-width: 50px;
+width: 48px;
 }
 
 footer {
 position: absolute;
 margin-top: 100px;
-margin-left: -50px;
-width: 408px;
+width: 100%;
 height: 48px;
 flex-shrink: 0;
 background: #000;
@@ -738,28 +234,576 @@ font-family: 'Simonetta';
 }
 
 #titres {
-width: 310px;
+width: 320px;
 margin-top: 3px;
-margin-left: 100px;
+margin-left: 10%;
 font-size: 10px;
-word-spacing: 90px;
+word-spacing: 120px;
 letter-spacing: 1.8px;
 }
 
 #localisation {
 display: flex;
 flex-shrink: 0;
-margin-left: 90px;
+margin-left: 7%;
 margin-top: -1.5px;
 font-size: 7px;
 letter-spacing: 1px;
 }
 
 .contact {
+color: #FAEBDC;
 flex-shrink: 0;
-margin-left: 240px;
-margin-top: -22px;
+margin-left: 55%;
+margin-top: -20px;
 font-size: 7px;
 letter-spacing: 1px;
+list-style: none;
 }
 }
+
+@media only screen and (min-width: 930px) {
+    
+ body {
+background-color:#F2F0ED;
+margin: auto;
+}
+
+header {
+position: relative;
+background: #000;
+width: 100%;
+height: 80px;
+flex-shrink: 0;
+}
+
+.logo {
+position: relative;
+top: 2px;
+left: 40px;
+width: 90px;
+}
+
+h1{
+display: flex;
+position: relative;
+justify-content: center;
+top: -96px;
+color: #FAEBDC;
+font-size: 40px;
+font-family: 'Simonetta', serif;
+font-weight: 400;
+}
+
+#ligne {
+display: flex;
+position: relative;
+align-items: center;
+top: -125px;
+background: #FAEBDC;
+width: 60%;
+height: 0.1px;
+}
+
+#PD {
+position: relative;
+top: -150px;
+margin-left: 82%;
+color: #FAEBDC;
+font-family: 'Simonetta',serif;
+font-size: 20px;
+font-weight: 400;
+white-space: nowrap;
+}
+
+nav ul li a{
+background-color:#000;
+display: flex;
+width: 152px;
+height: 50px;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+font-family: 'Simonetta';
+font-size: 20px;
+letter-spacing: 2px;
+margin-left:-50px;
+margin-right:16px;
+text-decoration: none;
+}
+
+    nav ul li:nth-child(1) a {
+margin-left: -50px;
+    } 
+
+nav ul li:nth-child(2) a {
+margin-left: -40px;
+color: #000;
+background-color:#FAEBDC;
+}
+    
+nav ul li:nth-child(3) a {
+margin-left: -40px;
+    } 
+
+nav ul li:nth-child(3) a:hover {
+background-color:  #242220;
+}
+
+nav ul li:nth-child(2) a:hover {
+background-color:  #E0C7AF;
+}
+
+nav ul li:nth-child(1) a:hover {
+background-color:#242220;
+}
+
+nav ul{
+list-style: none;
+}
+
+nav ul li{
+margin: 10px;
+display: inline-block;
+}
+
+nav{
+display: inline-block;
+}
+
+#oeuvre-accueil {
+margin-top: -80px;
+position: relative;
+}
+
+#titre-oeuvre {
+position: relative;
+display: flex;
+}
+    
+#titre {
+flex-shrink: 0;
+position: absolute;
+margin-top: 90px;
+font-size: 20px;
+font-family: 'Sora';
+font-weight: bold;
+letter-spacing: 2px;
+display: flex;
+margin-left: 11%;
+}
+
+.accueil {
+margin-left: 35px;
+margin-top: 120px;
+width: 60%;
+height: 300px;
+flex-shrink: 0;
+border: 10px solid #7A4938;
+}
+
+#peintre {
+position: absolute;
+flex-shrink: 0;
+margin-top: 1px;
+margin-left: 44%;
+font-size: 20px;
+font-family: 'Sora';
+font-weight: 400;
+letter-spacing: 2px;
+}
+
+#texte {
+position: absolute;
+width: 26%;
+flex-shrink: 0;
+margin-top: -310px;
+margin-left: 70%;
+font-family: 'Simonetta';
+text-align: justify;
+font-size: 18px;
+color: #65635F;
+letter-spacing: 2px;
+}
+
+#Dechewsky1 {
+flex-shrink: 0;
+height: 430px;
+flex-shrink: 0;
+background: rgba(229, 214, 199, 0.66);
+padding: 1px 20px 15px;
+width: 60%;
+margin-top: 85px;
+margin-left: 5%;
+color: #000;
+text-align: justify;
+font-family: 'Simonetta';
+font-size: 22px;
+font-style: normal;
+line-height: normal;
+letter-spacing: 2px;
+}
+
+#Dechewsky2 {
+flex-shrink: 0;
+height: 255px;
+flex-shrink: 0;
+background: rgba(229, 214, 199, 0.66);
+padding: 1px 20px 15px;
+width: 60%;
+margin-top: 0px;
+margin-left: 5%;
+color: #000;
+text-align: justify;
+font-family: 'Simonetta';
+font-size: 22px;
+font-style: normal;
+line-height: normal;
+letter-spacing: 2px;
+}
+
+
+.pd {
+position: absolute;
+flex-shrink: 0;
+margin-left: 75%;
+margin-top: -28px;
+width: 223px;
+height: 340px;
+ }
+
+#fond {
+flex-shrink: 0;
+width: 210px;
+height: 310px;
+border: 2px solid #000;
+background: rgba(144, 103, 62, 0.66);
+margin-top: -755px;
+margin-left: 75%;
+}
+
+.signature {
+position: absolute;
+margin-left: 77.5%;
+margin-top: 320px;
+width: 160px;
+}
+
+footer {
+position: absolute;
+margin-top: 530px;
+width: 100%;
+height: 95px;
+flex-shrink: 0;
+background: #000;
+}
+
+#titres, #localisation, .contact {
+color: #FAEBDC;
+font-family: 'Simonetta';
+}
+
+#titres {
+width: 70%;
+margin-top: 5px;
+margin-left: 150px;
+font-size: 18px;
+word-spacing: 400px;
+letter-spacing: 1.8px
+}
+
+#localisation {
+display: flex;
+flex-shrink: 0;
+margin-left: 120px;
+font-size: 15px;
+letter-spacing: 1.6px;
+}
+
+.contact {
+flex-shrink: 0;
+margin-left: 650px;
+margin-top: -50px;
+font-size: 15px;
+letter-spacing: 1.6px;
+list-style: none;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+body {
+background-color:#F2F0ED;
+margin: auto;
+}
+
+header {
+position: relative;
+background: #000;
+width: 100%;
+height: 80px;
+flex-shrink: 0;
+}
+
+.logo {
+position: relative;
+top: 2px;
+left: 40px;
+width: 90px;
+}
+
+h1{
+display: flex;
+position: relative;
+justify-content: center;
+top: -96px;
+color: #FAEBDC;
+font-size: 40px;
+font-family: 'Simonetta', serif;
+font-weight: 400;
+}
+
+#ligne {
+display: flex;
+position: relative;
+align-items: center;
+top: -125px;
+background: #FAEBDC;
+width: 60%;
+height: 0.1px;
+}
+
+#PD {
+position: relative;
+top: -150px;
+margin-left: 82%;
+color: #FAEBDC;
+font-family: 'Simonetta',serif;
+font-size: 20px;
+font-weight: 400;
+white-space: nowrap;
+}
+
+nav ul li a{
+position: relative;
+color:#FAEBDC;
+background-color:#000;
+display: flex;
+width: 152px;
+height: 50px;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+font-family: 'Simonetta';
+font-size: 20px;
+letter-spacing: 2px;
+margin-left:-50px;
+margin-right:16px;
+text-decoration: none;
+}
+
+    
+nav ul li:nth-child(1) a {
+margin-left: -50px;
+    } 
+
+nav ul li:nth-child(2) a {
+margin-left: -40px;
+color: #000;
+background-color:#FAEBDC;
+}
+    
+nav ul li:nth-child(3) a {
+margin-left: -40px;
+    } 
+
+nav ul li:nth-child(2) a {
+color: #000;
+background-color:#FAEBDC;
+}
+
+nav ul li:nth-child(3) a:hover {
+background-color:  #242220;
+}
+
+nav ul li:nth-child(2) a:hover {
+background-color:  #E0C7AF;
+}
+
+nav ul li:nth-child(1) a:hover {
+background-color:#242220;
+}
+
+nav ul{
+list-style: none;
+}
+
+nav ul li{
+margin: 10px;
+display: inline-block;
+}
+
+nav{
+display: inline-block;
+}
+
+#oeuvre-accueil {
+margin-top: -80px;
+position: relative;
+}
+
+#titre-oeuvre {
+position: relative;
+display: flex;
+}
+    
+#titre {
+flex-shrink: 0;
+position: absolute;
+margin-top: 90px;
+font-size: 20px;
+font-family: 'Sora';
+font-weight: bold;
+letter-spacing: 2px;
+display: flex;
+margin-left: 12%;
+}
+
+.accueil {
+margin-left: 35px;
+margin-top: 120px;
+width: 60%;
+height: 300px;
+flex-shrink: 0;
+border: 10px solid #7A4938;
+}
+
+#peintre {
+position: absolute;
+flex-shrink: 0;
+margin-top: 1px;
+margin-left: 45%;
+font-size: 20px;
+font-family: 'Sora';
+font-weight: 400;
+letter-spacing: 2px;
+}
+
+#texte {
+position: absolute;
+width: 28%;
+flex-shrink: 0;
+margin-top: -310px;
+margin-left: 68%;
+font-family: 'Simonetta';
+text-align: justify;
+font-size: 18px;
+color: #65635F;
+letter-spacing: 2px;
+}
+
+#Dechewsky1 {
+flex-shrink: 0;
+height: 430px;
+flex-shrink: 0;
+background: rgba(229, 214, 199, 0.66);
+padding: 1px 20px 15px;
+width: 60%;
+margin-top: 85px;
+margin-left: 5%;
+color: #000;
+text-align: justify;
+font-family: 'Simonetta';
+font-size: 22px;
+font-style: normal;
+line-height: normal;
+letter-spacing: 2px;
+}
+
+#Dechewsky2 {
+flex-shrink: 0;
+height: 230px;
+flex-shrink: 0;
+background: rgba(229, 214, 199, 0.66);
+padding: 1px 20px 15px;
+width: 60%;
+margin-top: 0px;
+margin-left: 5%;
+color: #000;
+text-align: justify;
+font-family: 'Simonetta';
+font-size: 22px;
+font-style: normal;
+line-height: normal;
+letter-spacing: 2px;
+}
+
+
+.pd {
+position: absolute;
+flex-shrink: 0;
+margin-left: 75%;
+margin-top: -28px;
+width: 223px;
+height: 340px;
+ }
+
+#fond {
+flex-shrink: 0;
+width: 210px;
+height: 310px;
+border: 2px solid #000;
+background: rgba(144, 103, 62, 0.66);
+margin-top: -755px;
+margin-left: 75%;
+}
+
+.signature {
+position: absolute;
+margin-left: 77.5%;
+margin-top: 320px;
+width: 160px;
+}
+
+footer {
+position: absolute;
+margin-top: 530px;
+width: 100%;
+height: 95px;
+flex-shrink: 0;
+background: #000;
+}
+
+#titres, #localisation, .contact {
+color: #FAEBDC;
+font-family: 'Simonetta';
+}
+
+#titres {
+width: 60%;
+margin-top: 5px;
+margin-left: 250px;
+font-size: 18px;
+word-spacing: 350px;
+letter-spacing: 1.8px
+}
+
+#localisation {
+display: flex;
+flex-shrink: 0;
+margin-left: 230px;
+font-size: 15px;
+letter-spacing: 1.6px;
+}
+
+.contact {
+flex-shrink: 0;
+margin-left: 700px;
+margin-top: -50px;
+font-size: 15px;
+letter-spacing: 1.6px;
+list-style: none;
+}
+}
+    
