@@ -2155,18 +2155,22 @@ flex-shrink: 0;
 background: #000;
 }
 
-#titres, #localisation, .contact {
+#titre1, #titre2, #localisation, .contact {
 color: #FAEBDC;
 font-family: 'Simonetta';
 }
 
-#titres {
-width: 60%;
+#titre1{
 margin-top: 5px;
 margin-left: 250px;
 font-size: 18px;
-word-spacing: 350px;
-letter-spacing: 1.8px
+letter-spacing: 1.8px;
+}
+    
+#titre2{
+margin-left: 60%;
+font-size: 18px;
+letter-spacing: 1.8px;
 }
 
 #localisation {
