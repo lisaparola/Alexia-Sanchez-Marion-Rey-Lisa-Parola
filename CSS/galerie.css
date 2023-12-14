@@ -360,7 +360,7 @@ opacity: 40%;
 
 .populaire-item.special-item img {
     z-index: 2;
-    max-width: 280%;
+    width: 280px;
     margin-top: 540px;
 margin-left: -500px;
 }
