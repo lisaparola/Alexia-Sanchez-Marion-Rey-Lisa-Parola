@@ -70,6 +70,7 @@ letter-spacing: 1.1px;
 top: -15px;
 margin-left: -70%;
 text-decoration: none;
+margin-top: 1px;
 } 
 
     
@@ -343,6 +344,7 @@ letter-spacing: 1.1px;
 top: -15px;
 margin-left: -70%;
 text-decoration: none;
+margin-top: 15px;
 } 
 
     
@@ -614,6 +616,7 @@ justify-content: center;
 letter-spacing: 1.1px;
 top: -15px;
 text-decoration: none;
+margin-top: 15px;
 } 
     
     
@@ -880,7 +883,7 @@ color:#FAEBDC;
 background-color:#000;
 display: flex;
 width: 100px;
-height: 30px;
+height: 35px;
 flex-direction: column;
 font-family: 'Simonetta';
 font-size: 13px;
@@ -890,6 +893,7 @@ letter-spacing: 1.1px;
 top: -15px;
 margin-left: -70%;
 text-decoration: none;
+margin-top: 15px;
 } 
 
 nav ul li:nth-child(1) a {
@@ -1119,7 +1123,7 @@ h1{
 display: flex;
 position: relative;
 justify-content: center;
-top: -78px;
+top: -70px;
 color: #FAEBDC;
 font-size: 30px;
 font-family: 'Simonetta', serif;
@@ -1130,7 +1134,7 @@ font-weight: 400;
 display: flex;
 position: relative;
 align-items: center;
-top: -100px;
+top: -90px;
 background: #FAEBDC;
 width: 50%;
 height: 0.1px;
@@ -1157,11 +1161,12 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 font-family: 'Simonetta';
-font-size: 18px;
+font-size: 16px;
 letter-spacing: 2px;
 margin-left:-50px;
 margin-right:16px;
 text-decoration: none;
+margin-top: 20px;
 }
 
 nav ul li:nth-child(1) a {
@@ -1204,7 +1209,7 @@ display: inline-block;
 }
 
 #oeuvre-accueil {
-margin-top: -80px;
+margin-top: -30px;
 position: relative;
 }
 
@@ -1216,7 +1221,7 @@ display: flex;
 #titre {
 flex-shrink: 0;
 position: absolute;
-margin-top: 92px;
+margin-top: 50px;
 font-size: 17px;
 font-family: 'Sora';
 font-weight: bold;
@@ -1227,7 +1232,7 @@ margin-left: 10%;
 
 .accueil {
 margin-left: 35px;
-margin-top: 120px;
+margin-top: 75px;
 width: 60%;
 height: 210px;
 flex-shrink: 0;
@@ -1394,7 +1399,7 @@ h1{
 display: flex;
 position: relative;
 justify-content: center;
-top: -78px;
+top: -70px;
 color: #FAEBDC;
 font-size: 30px;
 font-family: 'Simonetta', serif;
@@ -1405,7 +1410,7 @@ font-weight: 400;
 display: flex;
 position: relative;
 align-items: center;
-top: -100px;
+top: -90px;
 background: #FAEBDC;
 width: 50%;
 height: 0.1px;
@@ -1437,6 +1442,7 @@ letter-spacing: 2px;
 margin-left:-50px;
 margin-right:16px;
 text-decoration: none;
+margin-top: 20px;
 }
 
 nav ul li:nth-child(1) a {
@@ -1491,7 +1497,7 @@ display: flex;
 #titre {
 flex-shrink: 0;
 position: absolute;
-margin-top: 90px;
+margin-top: 50px;
 font-size: 18px;
 font-family: 'Sora';
 font-weight: bold;
@@ -1502,7 +1508,7 @@ margin-left: 10%;
 
 .accueil {
 margin-left: 35px;
-margin-top: 120px;
+margin-top: 75px;
 width: 60%;
 height: 280px;
 flex-shrink: 0;
@@ -1711,6 +1717,7 @@ letter-spacing: 2px;
 margin-left:-50px;
 margin-right:16px;
 text-decoration: none;
+margin-top: 20px;
 }
 
     nav ul li:nth-child(1) a {
@@ -1753,7 +1760,7 @@ display: inline-block;
 }
 
 #oeuvre-accueil {
-margin-top: -80px;
+margin-top: -42px;
 position: relative;
 }
 
@@ -1765,7 +1772,7 @@ display: flex;
 #titre {
 flex-shrink: 0;
 position: absolute;
-margin-top: 90px;
+margin-top: 50px;
 font-size: 20px;
 font-family: 'Sora';
 font-weight: bold;
@@ -1776,7 +1783,7 @@ margin-left: 11%;
 
 .accueil {
 margin-left: 35px;
-margin-top: 120px;
+margin-top: 78px;
 width: 60%;
 height: 300px;
 flex-shrink: 0;
@@ -1962,7 +1969,7 @@ height: 0.1px;
 
 #PD {
 position: relative;
-top: -150px;
+top: -152px;
 margin-left: 82%;
 color: #FAEBDC;
 font-family: 'Simonetta',serif;
@@ -1988,6 +1995,7 @@ letter-spacing: 2px;
 margin-left: -50px;
 margin-right: 16px;
 text-decoration: none;
+margin-top: 20px;
 }
 
 
@@ -2034,7 +2042,7 @@ display: flex;
 #titre {
 flex-shrink: 0;
 position: absolute;
-margin-top: 90px;
+margin-top: 50px;
 font-size: 20px;
 font-family: 'Sora';
 font-weight: bold;
@@ -2045,7 +2053,7 @@ margin-left: 12%;
 
 .accueil {
 margin-left: 35px;
-margin-top: 120px;
+margin-top: 78px;
 width: 60%;
 height: 300px;
 flex-shrink: 0;
