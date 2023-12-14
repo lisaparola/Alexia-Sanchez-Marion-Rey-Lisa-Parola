@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 420px) {
+@media only screen and (min-width: 360px) {
 
 body {
 background-color:#F2F0ED;
@@ -604,28 +604,31 @@ position: relative;
 color:#FAEBDC;
 background-color:#000;
 display: flex;
-width: 100px;
+width: 72px;
 height: 30px;
 flex-direction: column;
 font-family: 'Simonetta';
-font-size: 13px;
+font-size: 10px;
 text-align: center;
 justify-content: center;
 letter-spacing: 1.1px;
 top: -15px;
-margin-left: -70%;
 text-decoration: none;
 } 
-
     
+    
+nav ul li:nth-child(1) a {
+margin-left: -70%;
+}
+  
 nav ul li:nth-child(2) a {
 color: #000;
 background-color:#FAEBDC;
-margin-left: -115%;
+margin-left: -108%;
 }
     
 nav ul li:nth-child(3) a {
-margin-left: -155%;
+margin-left: -146%;
 }
     
     
@@ -889,15 +892,18 @@ margin-left: -70%;
 text-decoration: none;
 } 
 
+nav ul li:nth-child(1) a {
+margin-left: -50%;
+}
     
 nav ul li:nth-child(2) a {
 color: #000;
 background-color:#FAEBDC;
-margin-left: -115%;
+margin-left: -78%;
 }
     
 nav ul li:nth-child(3) a {
-margin-left: -155%;
+margin-left: -106%;
 }
     
     
@@ -1966,6 +1972,7 @@ white-space: nowrap;
 }
 
 nav ul li a{
+display: flex;
 position: relative;
 color:#FAEBDC;
 background-color:#000;
@@ -1983,20 +1990,6 @@ margin-right: 16px;
 text-decoration: none;
 }
 
-    
-nav ul li:nth-child(1) a {
-margin-left: -50px;
-} 
-
-nav ul li:nth-child(2) a {
-margin-left: -40px;
-color: #000;
-background-color:#FAEBDC;
-}
-    
-nav ul li:nth-child(3) a {
-margin-left: -40px;
-} 
 
 nav ul li:nth-child(2) a {
 color: #000;
