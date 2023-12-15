@@ -245,9 +245,9 @@ font-size: 12px;
 letter-spacing: 1.8px;
 }
 
-    #titre2 {
-margin-left: 62%;
-margin-top: -23px;
+#titre2 {
+margin-left: 65%;
+margin-top: -27px;
 font-size: 12px;
 letter-spacing: 1.8px;
     } 
@@ -255,7 +255,7 @@ letter-spacing: 1.8px;
 #localisation {
 display: flex;
 flex-shrink: 0;
-margin-left: 10%;
+margin-left: 8%;
 margin-top: -1.5px;
 font-size: 11px;
 letter-spacing: 1px;
@@ -264,8 +264,8 @@ letter-spacing: 1px;
 .contact {
 color: #FAEBDC;
 flex-shrink: 0;
-margin-left: 50%;
-margin-top: -20px;
+margin-left: 52%;
+margin-top: -32px;
 font-size: 11px;
 letter-spacing: 1px;
 list-style: none;
@@ -540,7 +540,7 @@ letter-spacing: 1px;
 color: #FAEBDC;
 flex-shrink: 0;
 margin-left: 50%;
-margin-top: -25px;
+margin-top: -32px;
 font-size: 11px;
 letter-spacing: 1px;
 list-style: none;
@@ -817,7 +817,7 @@ letter-spacing: 1px;
 color: #FAEBDC;
 flex-shrink: 0;
 margin-left: 55%;
-margin-top: -25px;
+margin-top: -32px;
 font-size: 12px;
 letter-spacing: 1px;
 list-style: none;
@@ -1094,7 +1094,7 @@ letter-spacing: 1px;
 color: #FAEBDC;
 flex-shrink: 0;
 margin-left: 55%;
-margin-top: -25px;
+margin-top: -32px;
 font-size: 11px;
 letter-spacing: 1px;
 list-style: none;
@@ -2080,7 +2080,7 @@ letter-spacing: 2px;
 
 #texte {
 position: absolute;
-width: 30%;
+width: 50%;
 flex-shrink: 0;
 margin-top: -310px;
 margin-left: 710px;
