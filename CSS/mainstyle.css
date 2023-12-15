@@ -48,7 +48,7 @@ top: -65px;
 margin-left: 79%;
 color: #FAEBDC;
 font-family: 'Simonetta',serif;
-font-size: 11px;
+font-size: 12px;
 font-weight: 400;
 white-space: nowrap;
 }
@@ -63,7 +63,7 @@ width: 80px;
 height: 30px;
 flex-direction: column;
 font-family: 'Simonetta';
-font-size: 11px;
+font-size: 12px;
 text-align: center;
 justify-content: center;
 letter-spacing: 1.1px;
@@ -142,7 +142,7 @@ position: absolute;
 flex-shrink: 0;
 margin-top: -3px;
 margin-left: 60%;
-font-size: 11px;
+font-size: 12px;
 font-family: 'Sora';
 letter-spacing: 2px;
 }
@@ -155,7 +155,7 @@ margin-top: 50px;
 margin-left: 6%;
 font-family: 'Simonetta';
 text-align: justify;
-font-size: 11px;
+font-size: 12px;
 color: #65635F;
 letter-spacing: 1px;
 }
@@ -240,14 +240,14 @@ font-family: 'Simonetta';
 #titre1 {
 margin-top: 3px;
 margin-left: 70px;
-font-size: 11px;
+font-size: 12px;
 letter-spacing: 1.8px;
 }
 
     #titre2 {
 margin-left: 62%;
 margin-top: -23px;
-font-size: 11px;
+font-size: 12px;
 letter-spacing: 1.8px;
     } 
 
@@ -322,7 +322,7 @@ top: -80px;
 margin-left: 79%;
 color: #FAEBDC;
 font-family: 'Simonetta',serif;
-font-size: 11px;
+font-size: 12px;
 font-weight: 400;
 white-space: nowrap;
 }
@@ -337,7 +337,7 @@ width: 80px;
 height: 30px;
 flex-direction: column;
 font-family: 'Simonetta';
-font-size: 11px;
+font-size: 12px;
 text-align: center;
 justify-content: center;
 letter-spacing: 1.1px;
@@ -416,7 +416,7 @@ position: absolute;
 flex-shrink: 0;
 margin-top: -3px;
 margin-left: 69%;
-font-size: 11px;
+font-size: 12px;
 font-family: 'Sora';
 letter-spacing: 2px;
 }
@@ -446,7 +446,7 @@ margin-left: 30%;
 color: #000;
 text-align: justify;
 font-family: 'Simonetta';
-font-size: 11px;
+font-size: 12px;
 font-style: normal;
 line-height: normal;
 letter-spacing: 1px;
@@ -464,7 +464,7 @@ margin-left: 2.8%;
 color: #000;
 text-align: justify;
 font-family: 'Simonetta';
-font-size: 11px;
+font-size: 12px;
 font-style: normal;
 line-height: normal;
 letter-spacing: 1px;
@@ -610,7 +610,7 @@ width: 72px;
 height: 30px;
 flex-direction: column;
 font-family: 'Simonetta';
-font-size: 11px;
+font-size: 12px;
 text-align: center;
 justify-content: center;
 letter-spacing: 1.1px;
@@ -806,7 +806,7 @@ display: flex;
 flex-shrink: 0;
 margin-left: 10%;
 margin-top: -1.5px;
-font-size: 11px;
+font-size: 12px;
 letter-spacing: 1px;
 }
 
@@ -815,7 +815,7 @@ color: #FAEBDC;
 flex-shrink: 0;
 margin-left: 55%;
 margin-top: -25px;
-font-size: 11px;
+font-size: 12px;
 letter-spacing: 1px;
 list-style: none;
 } 
