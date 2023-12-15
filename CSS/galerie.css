@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 799px) {
+@media only screen and (min-width: 700px) {
 
 body {
 background-color:#F2F0ED;
@@ -291,7 +291,7 @@ margin-left: -0%;
 .populaire-item:nth-child(2) img {
 z-index: 2;
   width: 120%;
-  height: auto;
+  height: 425px;
  margin-left:70px;
 }
 
@@ -314,7 +314,7 @@ opacity: 40%;
 .populaire-item:nth-child(3) img {
 z-index: 2;
   width: 110%;
-  height: auto;
+  height: 330px;
   margin-top: 45px;
  margin-left:210px;
 }
@@ -362,6 +362,7 @@ opacity: 40%;
 .populaire-item.special-item img {
     z-index: 2;
     width: 280px;
+    height: 200px;
     margin-top: 540px;
 margin-left: -500px;
 }
@@ -796,7 +797,7 @@ margin-left: -70%;
 .populaire-item:nth-child(2) img {
 z-index: 2;
   width: 80%;
-  height: auto;
+  height: 285px;
  margin-left:15px;
 }
 
@@ -819,7 +820,7 @@ opacity: 40%;
 .populaire-item:nth-child(3) img {
 z-index: 2;
   width: 80%;
-  height: auto;
+  height: 242px;
   margin-top: 45px;
  margin-left:12px;
 }
@@ -867,6 +868,7 @@ opacity: 40%;
 .populaire-item.special-item img {
     z-index: 2;
     width: 80%;
+    height: 113px;
     margin-top: 172px;
 margin-left: -0px;
 }
@@ -1299,7 +1301,7 @@ margin-left: -60%;
 .populaire-item:nth-child(2) img {
 z-index: 2;
   width: 100%;
-  height: auto;
+  height: 355px;
 }
 
 #prix1 {
@@ -1321,7 +1323,7 @@ opacity: 40%;
 .populaire-item:nth-child(3) img {
 z-index: 2;
   width: 100%;
-  height: auto;
+  height: 302px;
   margin-top: 55px;
 }
 
@@ -1367,6 +1369,7 @@ opacity: 40%;
 .populaire-item.special-item img {
     z-index: 2;
     width: 200px;
+    height: 138px;
     margin-top: 218px;
 margin-left: -0px;
 }
@@ -1793,7 +1796,7 @@ margin-left: -60%;
 .populaire-item:nth-child(2) img {
 z-index: 2;
   width: 100%;
-  height: auto;
+  height: 355px;
 }
 
 #prix1 {
@@ -1815,7 +1818,7 @@ opacity: 40%;
 .populaire-item:nth-child(3) img {
 z-index: 2;
   width: 100%;
-  height: auto;
+  height: 302px;
   margin-top: 55px;
 }
 
@@ -1859,9 +1862,10 @@ opacity: 40%;
 }
 
 .populaire-item.special-item img {
-    z-index: 2;
-    width: 250px;
-    margin-top: 182.5px;
+z-index: 2;
+width: 250px;
+height: 175px;
+margin-top: 182.5px;
 margin-left: -20px;
 }
 
