@@ -1135,15 +1135,15 @@ nav{
 display: inline-block;
 }
 
-  .carousel-container {
+.carousel-container {
     position: relative;
     width: 80%;
     height: 100vh;
     margin: auto;
     display: flex;
     justify-content: center;
-    margin-left: 60px;
-    margin-top: -10px;
+    margin-left: 70px;
+    margin-top: -60px;
 }
 
 .carousel {
@@ -1161,31 +1161,32 @@ display: inline-block;
 
 .oeuvres {
     position: relative;
-    margin-top: -80px;
-    width: 52%;
-    height: 300px;
-    margin-right: 20px;
+    margin-top: 40px;
+    width: 53%;
+    height: 250px;
+   left: 310px;
     border: 10px solid #8D3807;
 }
 
 .main-text {
     color: var(--Grey, #65635F);
     text-align: center;
-    font:  18px/1 'Simonetta', serif;
-    line-height: 40px;
- margin-right: -60px;
- margin-bottom:-10px;
-  border-bottom:0.5px solid #DBD9D8;
-
+    font:  15px/1 'Simonetta', serif;
+    line-height: 30px;
+ margin-left:399px;
+ margin-top: 70px;
+ position: absolute;
+      border-bottom:: 1px solid #DBD9D8;
 }
 
 .additional-text {
     color: var(--Grey, #65635F);
     text-align: justify;
-    font: 400 15px/1 'Simonetta', serif;
-    line-height: 24px;
-    margin-left: 35px;
-    width: 100%;
+    font: 400 14px/1 'Simonetta', serif;
+    line-height: 20px;
+    margin-left: 345px;
+ margin-top: 100px;
+    width:45%;
 }
 
 .image-title {
@@ -1196,8 +1197,8 @@ display: inline-block;
     font-weight: 600;
     line-height: 48px;
     position: absolute;
-    margin-top: -420px;
-    margin-left: 60px;
+    margin-top: -250px;
+    margin-left: 50px;
 }
 
     .image-title2 {
@@ -1208,8 +1209,8 @@ display: inline-block;
     font-weight: 600;
     line-height: 48px;
     position: absolute;
-    margin-top: -420px;
-    margin-left: -20px;
+    margin-top: -250px;
+    margin-left: -40px;
 }
 
 .sub-text {
@@ -1217,9 +1218,9 @@ display: inline-block;
 font-family: Sora;
 font-size: 15px;
 line-height: 20px;
- margin-top: 280px;
+ margin-top: 350px;
  position: absolute;
- margin-left: 250px;
+ margin-left: 235px;
 white-space:nowrap;
 }
 
@@ -1228,9 +1229,9 @@ white-space:nowrap;
 font-family: Sora;
 font-size: 15px;
 line-height: 20px;
- margin-top: 280px;
+ margin-top: 350px;
  position: absolute;
- margin-left: 170px;
+ margin-left: 150px;
 white-space:nowrap;
 }
 
@@ -1265,13 +1266,13 @@ display: none;
 }
 
 .carousel-prev {
-    left: -40px;
+    left: -50px;
     top: 130px;
     transform: translateY(-50%);
 }
 
 .carousel-next {
-    left: 110%;
+    left: 106%;
     top: 130px;
     transform: translateY(-50%);
 }
@@ -1286,7 +1287,7 @@ display: none;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    margin-left: %;
+    margin-left: -3%;
 }
 
 .populaires-container h2 {
@@ -1307,14 +1308,15 @@ margin-left: -70%;
     flex-direction:column;
     align-items: justify;
     margin-top: -20px;
+ margin-left:10px;
     }
 
 
 .populaire-item:nth-child(2) img {
 z-index: 2;
-  width: 80%;
-  height: 285px;
- margin-left:15px;
+  width: 90%;
+  height: 355px;
+ margin-left: 20px;
 }
 
 #prix1 {
@@ -1335,10 +1337,10 @@ opacity: 40%;
 
 .populaire-item:nth-child(3) img {
 z-index: 2;
-  width: 80%;
-  height: 242px;
-  margin-top: 45px;
- margin-left:12px;
+  width: 90%;
+  height: 302px;
+  margin-top: 55px;
+ margin-left:10px;
 }
 
 #prix2 {
@@ -1359,10 +1361,10 @@ opacity: 40%;
 
 .populaire-item:nth-child(4) img {
     z-index: 2;
-  width: 80%;
-  height: 250px;
-  margin-top: 35px;
- margin-left:10px;
+  width: 180px;
+  height: 350px;
+  margin-top: 5.5px;
+ margin-left: 20px;
 }
 
 #prix3 {
@@ -1382,11 +1384,11 @@ opacity: 40%;
 }
 
 .populaire-item.special-item img {
-    z-index: 2;
-    width: 80%;
-    height: 113px;
-    margin-top: 172px;
-margin-left: -0px;
+z-index: 2;
+width: 180px;
+height: 150px;
+margin-top: 182.5px;
+margin-left: 1px;
 }
 
 #prix4 {
@@ -1409,26 +1411,26 @@ opacity: 40%;
   color: #000;
 text-align: center;
 font-family: Sora;
-font-size: 11px;
- margin-top: -75px;
-margin-left: 0px;
+font-size: 12px;
+ margin-top: -65px;
 }
 
 .populaire-item:nth-child(2) h3 {
-margin-left: -3px;
+margin-left: 0px;
+ white-space:revert
 }
 
 .populaire-item:nth-child(4) h3 {
 white-space: nowrap;
- margin-left:-10px;
+ margin-left:20px;
 }
 
 .populaire-item:nth-child(3) h3 {
-margin-left: -3px;
+margin-left: -10px;
 }
 
 .populaire-item.special-item h3 {
-margin-left: -45px;
+margin-left: -30px;
 }
 
 .populaire-item p.description {
@@ -1436,24 +1438,24 @@ color: var(--Grey, #65635F);
 text-align: center;
 font-family: Sora;
 font-size: 10px;
- margin-top: -10px;
+ margin-top: -8px;
 white-space: nowrap;
 }
 
 .populaire-item:nth-child(2) p.description {
-margin-left: 0px;
+margin-left: -10px;
 }
 
 .populaire-item:nth-child(3) p.description {
-margin-left: px;
+margin-left: 10px;
 }
 
 .populaire-item:nth-child(4) p.description {
-margin-left: -8px;
+margin-left: 20px;
 }
 
 .populaire-item.special-item p.description {
-margin-left: -45px;
+margin-left: -25px;
 }
 
 
@@ -1462,11 +1464,11 @@ margin-left: -45px;
   text-align: center;
 font-family: Simonetta;
 font-size: 10px;
- margin-top: -12px;
+ margin-top: -10px;
 }
 
 .populaire-item:nth-child(2) p.sous-texte {
-margin-left: -15px;
+margin-left: 0px;
 }
 
 .populaire-item:nth-child(3) p.sous-texte {
@@ -1474,16 +1476,16 @@ margin-left: -10px;
 }
 
 .populaire-item:nth-child(4) p.sous-texte {
-margin-left: 5px;
+margin-left: 20px;
 }
 
 .populaire-item.special-item p.sous-texte {
-margin-left: -45px;
+margin-left: -30px;
 }
 
   footer {
 position: absolute;
-margin-top: 530px;
+margin-top: 230px;
 width: 100%;
 height: 95px;
 flex-shrink: 0;
