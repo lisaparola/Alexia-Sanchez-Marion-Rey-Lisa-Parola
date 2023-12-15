@@ -2060,11 +2060,10 @@ margin-left: 12%;
 }
 
 .accueil {
-margin-left: 35px;
+margin-left: 3%;
 margin-top: 78px;
-width: 60%;
+width: 620px;
 height: 300px;
-flex-shrink: 0;
 border: 10px solid #7A4938;
 }
 
@@ -2081,10 +2080,10 @@ letter-spacing: 2px;
 
 #texte {
 position: absolute;
-width: 28%;
+width: 30%;
 flex-shrink: 0;
 margin-top: -310px;
-margin-left: 68%;
+margin-left: 710px;
 font-family: 'Simonetta';
 text-align: justify;
 font-size: 18px;
