@@ -216,17 +216,17 @@ white-space:nowrap;
 display: none;
 }
 
-#slide1:checked ~ .carousel #slide1,
-#slide2:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre1,
+#slide2:checked ~ .carousel #oeuvre2 {
     display: flex;
 }
 
-#slide1:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre2 {
     display: none;
 }
 
 
-#slide2:checked ~ .carousel #slide1 {
+#slide2:checked ~ .carousel #oeuvre1 {
     display: none;
 }
 
@@ -729,17 +729,17 @@ white-space:nowrap;
 display: none;
 }
 
-#slide1:checked ~ .carousel #slide1,
-#slide2:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre1,
+#slide2:checked ~ .carousel #oeuvre2 {
     display: flex;
 }
 
-#slide1:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre2 {
     display: none;
 }
 
 
-#slide2:checked ~ .carousel #slide1 {
+#slide2:checked ~ .carousel #oeuvre1 {
     display: none;
 }
 
@@ -1244,17 +1244,17 @@ white-space:nowrap;
 display: none;
 }
 
-#slide1:checked ~ .carousel #slide1,
-#slide2:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre1,
+#slide2:checked ~ .carousel #oeuvre2 {
     display: flex;
 }
 
-#slide1:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre2 {
     display: none;
 }
 
 
-#slide2:checked ~ .carousel #slide1 {
+#slide2:checked ~ .carousel #oeuvre1 {
     display: none;
 }
 
@@ -1763,17 +1763,17 @@ white-space:nowrap;
 display: none;
 }
 
-#slide1:checked ~ .carousel #slide1,
-#slide2:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre1,
+#slide2:checked ~ .carousel #oeuvre2 {
     display: flex;
 }
 
-#slide1:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre2 {
     display: none;
 }
 
 
-#slide2:checked ~ .carousel #slide1 {
+#slide2:checked ~ .carousel #oeuvre1 {
     display: none;
 }
 
@@ -2261,17 +2261,17 @@ white-space:nowrap;
 display: none;
 }
 
-#slide1:checked ~ .carousel #slide1,
-#slide2:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre1,
+#slide2:checked ~ .carousel #oeuvre2 {
     display: flex;
 }
 
-#slide1:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre2 {
     display: none;
 }
 
 
-#slide2:checked ~ .carousel #slide1 {
+#slide2:checked ~ .carousel #oeuvre1 {
     display: none;
 }
 
@@ -2783,17 +2783,17 @@ white-space:nowrap;
 display: none;
 }
 
-#slide1:checked ~ .carousel #slide1,
-#slide2:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre1,
+#slide2:checked ~ .carousel #oeuvre2 {
     display: flex;
 }
 
-#slide1:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre2 {
     display: none;
 }
 
 
-#slide2:checked ~ .carousel #slide1 {
+#slide2:checked ~ .carousel #oeuvre1 {
     display: none;
 }
 
@@ -3303,17 +3303,17 @@ white-space: nowrap;
 display: none;
 }
 
-#slide1:checked ~ .carousel #slide1,
-#slide2:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre1,
+#slide2:checked ~ .carousel #oeuvre2 {
     display: flex;
 }
 
-#slide1:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre2 {
     display: none;
 }
 
 
-#slide2:checked ~ .carousel #slide1 {
+#slide2:checked ~ .carousel #oeuvre1 {
     display: none;
 }
 
@@ -3808,17 +3808,17 @@ white-space:nowrap;
 display: none;
 }
 
-#slide1:checked ~ .carousel #slide1,
-#slide2:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre1,
+#slide2:checked ~ .carousel #oeuvre2 {
     display: flex;
 }
 
-#slide1:checked ~ .carousel #slide2 {
+#slide1:checked ~ .carousel #oeuvre2 {
     display: none;
 }
 
 
-#slide2:checked ~ .carousel #slide1 {
+#slide2:checked ~ .carousel #oeuvre1 {
     display: none;
 }
 
