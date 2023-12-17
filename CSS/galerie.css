@@ -2233,8 +2233,8 @@ position: absolute;
     font-weight: 600;
     line-height: 48px;
     position: absolute;
-    margin-top: -1400px;
-    margin-left: -160px;
+    margin-top: -1200px;
+    margin-left: 175px;
 }
 
     .image-title2 {
@@ -2254,9 +2254,9 @@ position: absolute;
 font-family: Sora;
 font-size: 15px;
 line-height: 20px;
- margin-top: -680px;
+ margin-top: -505px;
  position: absolute;
- margin-left: 110px;
+ margin-left: 445px;
 white-space:nowrap;
 }
 
@@ -2356,11 +2356,11 @@ margin-left: -0%;
 width: 0;
 z-index: 0;
 position: relative;
-top: 35px;
+top: 52px;
 left: 70px;
 color: #000;
 font-family: Sora;
-font-size: 10px;
+font-size: 12px;
 }
 
 .populaire-item:nth-child(3) img {
@@ -2374,11 +2374,11 @@ font-size: 10px;
 width: 0;
 z-index: 0;
 position: relative;
-top: 35px;
+top: 52px;
 left: 210px;
 color: #000;
 font-family: Sora;
-font-size: 10px;
+font-size: 12px;
 }
 
 .populaire-item:nth-child(4) img {
@@ -2392,11 +2392,11 @@ font-size: 10px;
 width: 0;
 z-index: 0;
 position: relative;
-top: 35px;
+top: 52px;
 left: 40px;
 color: #000;
 font-family: Sora;
-font-size: 10px;
+font-size: 12px;
 }
 
 
@@ -2410,12 +2410,12 @@ margin-left: -500px;
 #prix4 {
 z-index: 0;
 position: relative;
-top: 35px;
+top: 52px;
 left: -500px;
 width: 0;
 color: #000;
 font-family: Sora;
-font-size: 10px;
+font-size: 12px;
 }
 
 
@@ -2423,7 +2423,7 @@ font-size: 10px;
   color: #000;
 text-align: center;
 font-family: Sora;
-font-size: 11px;
+font-size: 12px;
  margin-top: -25px;
 margin-left: 0px;
 }
@@ -2444,14 +2444,14 @@ margin-left: 210px;
 }
 
 .populaire-item.special-item h3 {
-margin-left: -990px;
+margin-left: -970px;
 }
 
 .populaire-item p.description {
 color: var(--Grey, #65635F);
 text-align: center;
 font-family: Sora;
-font-size: 10px;
+font-size: 12px;
  margin-top: -10px;
 white-space: nowrap;
 }
@@ -2469,7 +2469,7 @@ margin-left: 40px;
 }
 
 .populaire-item.special-item p.description {
-margin-left: -1000px;
+margin-left: -960px;
 }
 
 
@@ -2477,12 +2477,12 @@ margin-left: -1000px;
   color: var(--Grey, #65635F);
   text-align: center;
 font-family: Simonetta;
-font-size: 10px;
+font-size: 12px;
  margin-top: -12px;
 }
 
 .populaire-item:nth-child(2) p.sous-texte {
-margin-left: 40px;
+margin-left: 60px;
 }
 
 .populaire-item:nth-child(3) p.sous-texte {
@@ -2495,7 +2495,7 @@ margin-left: -10px;
 }
 
 .populaire-item.special-item p.sous-texte {
-margin-left: -1005px;
+margin-left: -970px;
 }
 
 
