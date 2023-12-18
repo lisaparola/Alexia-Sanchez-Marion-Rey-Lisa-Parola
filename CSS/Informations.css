@@ -348,7 +348,7 @@
         color:#FAEBDC;
         background-color:#000;
         display: flex;
-        width: 112px;
+        width: 120px;
         height: 40px;
         flex-direction: column;
         justify-content: center;
@@ -362,10 +362,18 @@
         margin-top: 20px;
         }
 
+        nav ul li:nth-child(1) a {
+        margin-left:-50px;
+        }
 
         nav ul li:nth-child(2) a {
         color: #000;
         background-color:#FAEBDC;
+        margin-left:-50px;
+        }
+
+        nav ul li:nth-child(3) a {
+        margin-left:-40px;
         }
 
         nav ul li:nth-child(3) a:hover {
@@ -626,7 +634,7 @@
         color:#FAEBDC;
         background-color:#000;
         display: flex;
-        width: 112px;
+        width: 120px;
         height: 40px;
         flex-direction: column;
         justify-content: center;
@@ -640,10 +648,18 @@
         margin-top: 20px;
         }
 
+        nav ul li:nth-child(1) a {
+        margin-left:-50px;
+        }
 
         nav ul li:nth-child(2) a {
         color: #000;
         background-color:#FAEBDC;
+        margin-left:-40px;
+        }
+
+        nav ul li:nth-child(3) a {
+        margin-left:-40px;
         }
 
         nav ul li:nth-child(3) a:hover {
