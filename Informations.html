@@ -38,41 +38,34 @@
 
 <table>
             <tr>
-                <td id="mot1"> Nom </td>
-                <td>
-                    <input required type="text" name="nom">
-                </td>
-            </tr>
-            <tr>
-                <td id="mot2"> Mail </td>
-                <td>
-                    <input required type="text" name="email">
-                </td>
-            </tr>
-            <tr>
-                <td id="mot3"> Objet </td>
-                <td>
-                    <select id="categories" name="categories">
-                        <option value="choix1">Sélectionner un objet </option>
-                        <option value="choix1">Renseignements</option>
-                        <option value="choix2">Expositions</option>
-                        <option value="choix3">Achat</option>
-                        <option value="choix4">Collaboration</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td id="mot4"> Message </td>
-                <td>
-                    <input id="textS" required type="text" name="message">
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <input id="soumettre" type="submit" value="Soumettre">
-                </td>
-            </tr>
-    </table>
+        <td id="mot1"><label for="nom">Nom</label></td>
+        <td>
+            <input required type="text" id="nom" name="nom">
+        </td>
+    </tr>
+    <tr>
+        <td id="mot2"><label for="email">Mail</label></td>
+        <td>
+            <input required type="text" id="email" name="email">
+        </td>
+    </tr>
+    <tr>
+        <td id="mot3"><label for="categories">Objet</label></td>
+        <td>
+            <select id="categories" name="categories">
+                <option value="choix1">Sélectionner un objet</option>
+                <!-- ... options ... -->
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td id="mot4"><label for="message">Message</label></td>
+        <td>
+            <input id="textS" required type="text" id="message" name="message">
+        </td>
+    </tr>
+</table>
+    
    <footer>
         <p id="titre1"><strong>LOCALISATION</strong></p>
         <p id="titre2"><strong> CONTACT</strong></p>
