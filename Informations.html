@@ -3,70 +3,75 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Galerie d'art parisienne - Dédal des Couleurs</title>
-    <meta name="description" content="Explorez l'essence de l'art à notre galerie située au cœur de Paris, 10 Rue de la République. Découvrez une palette riche d'expressions artistiques, de l'abstrait au réalisme, capturée par des talents émergents et des artistes établis. Notre galerie est un lieu où la créativité rencontre l'élégance, offrant une expérience immersive aux amateurs d'art et aux collectionneurs. Venez découvrir la diversité artistique qui fait de notre galerie un incontournable à Paris. #ArtParis #GalerieDArt">
-    <meta name="og:title" property="og:title" content="Dédal des couleurs - Galerie d'art à Paris">
-    <link href="https://fonts.googleapis.com/css2?family=Simonetta&family=Sora&display=swap" rel="stylesheet">
+    <title>Dédal des Couleurs</title>
+	<link href="https://fonts.googleapis.com/css2?family=Simonetta&family=Sora&display=swap" rel="stylesheet">
     <link rel="website icon" type="image/png" href="img/DDC.png">
     <script src="https://kit.fontawesome.com/e03e778d21.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="CSS/Informations.css">  
+	<link rel="stylesheet" href="CSS/Informations.css">  
 </head>
 
 <body>
     <header>      
-        <img class ="logo" src="img/logo.webp" alt="logo">
-        <h1> DÉDAL DES COULEURS </h1>
-        <hr id="ligne">
-        <p id="PD"> Paul DECHEWSKY</p>
+		<img class ="logo" src="img/logo.webp" alt="logo">
+		<h1> DÉDAL DES COULEURS </h1>
+    	<hr id="ligne">
+    	<p id="PD"> Paul DECHEWSKY</p>
    </header>
 
 <nav> 
-    <ul>
+	<ul>
         <li id="accueil"><a href="index.html">Accueil</a></li>
         <li id="galerie"><a href="galerie.html">Galerie</a></li>
         <li id="info"><a href="Informations.html">Informations</a></li>
-    </ul>
+	</ul>
 </nav>
 
 <div id="plan">
-    <img class="lieu" src="img/lieu.webp" alt="lieu">
-    <h3> VENEZ NOUS RENDRE VISITE SUR PLACE !</h3>
-    <p id="sujet"> Implantés à Paris, nous nous sommes fixé pour objectif de vous faire découvrir l'immense variété de notre portfolio en constante expansion. Nous nous réjouissons de votre visite et vous conseillons volontiers ! </p>
-    <img class="salon" src="img/salon.webp" alt="salon">
+	<img class="lieu" src="img/lieu.png" alt="lieu">
+	<h3> VENEZ NOUS RENDRE VISITE SUR PLACE !</h3>
+	<p id="sujet"> Implantés à Paris, nous nous sommes fixé pour objectif de vous faire découvrir l'immense variété de notre portfolio en constante expansion. Nous nous réjouissons de votre visite et vous conseillons volontiers ! </p>
+	<img class="salon" src="img/salon.png" alt="salon">
 </div>
 <p id="suite"> ET POUR NE RIEN MANQUER...</p> 
 
 <table>
             <tr>
-        <td id="mot1"><label for="nom">Nom</label></td>
-        <td>
-            <input required type="text" id="nom" name="nom">
-        </td>
-    </tr>
-    <tr>
-        <td id="mot2"><label for="email">Mail</label></td>
-        <td>
-            <input required type="text" id="email" name="email">
-        </td>
-    </tr>
-    <tr>
-        <td id="mot3"><label for="categories">Objet</label></td>
-        <td>
-            <select id="categories" name="categories">
-                <option value="choix1">Sélectionner un objet</option>
-                <!-- ... options ... -->
-            </select>
-        </td>
-    </tr>
-    <tr>
-        <td id="mot4"><label for="message">Message</label></td>
-        <td>
-            <input id="textS" required type="text" id="message" name="message">
-        </td>
-    </tr>
-</table>
-    
-   <footer>
+                <td id="mot1"> Nom </td>
+                <td>
+                    <input required type="text" name="nom">
+                </td>
+            </tr>
+            <tr>
+                <td id="mot2"> Mail </td>
+                <td>
+                    <input required type="text" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td id="mot3"> Objet </td>
+                <td>
+                    <select id="categories" name="categories">
+                        <option value="choix1">Sélectionner un objet </option>
+                        <option value="choix1">Renseignements</option>
+                        <option value="choix2">Expositions</option>
+                        <option value="choix3">Achat</option>
+                        <option value="choix4">Collaboration</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td id="mot4"> Message </td>
+                <td>
+                    <input id="textS" required type="text" name="message">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input id="soumettre" type="submit" value="Soumettre">
+                </td>
+            </tr>
+    </table>
+    <footer>
         <p id="titre1"><strong>LOCALISATION</strong></p>
         <p id="titre2"><strong> CONTACT</strong></p>
         <p id="localisation">10 Rue de la République 75000 Paris</p>
@@ -76,7 +81,6 @@
         <li> Mail : dedal@gmail.com</li>
         </ul>
     </footer>
-
 </body>
-    
 </html>
+    
