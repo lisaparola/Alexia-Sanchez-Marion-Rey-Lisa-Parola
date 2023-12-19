@@ -295,7 +295,6 @@ margin-left: 10%;
     width: 160px;
     display: flex;
     flex-direction:column;
-    align-items: justify;
     margin-top: -20px;
     }
 
@@ -516,7 +515,7 @@ flex-shrink: 0;
 
 .logo {
 position: relative;
-top: px;
+top: 0px;
 left: 20px;
 width: 55px;
 height: 50px;
@@ -796,7 +795,6 @@ margin-left: 10%;
     width: 160px;
     display: flex;
     flex-direction:column;
-    align-items: justify;
     margin-top: -20px;
     }
 
@@ -1323,7 +1321,6 @@ margin-left: 10%;
     width: 190px;
     display: flex;
     flex-direction:column;
-    align-items: justify;
     margin-top: -20px;
     }
 
@@ -1853,7 +1850,6 @@ margin-left: -0%;
     width: 200px;
     display: flex;
     flex-direction:column;
-    align-items: justify;
     margin-top: 8%;
     }
 
@@ -2220,7 +2216,7 @@ opacity: 40%;
  margin-left: -100px;
  margin-top: -120px;
  position: absolute;
-      border-bottom:: 1px solid #DBD9D8;
+      border-bottom: 1px solid #DBD9D8;
 }
 
 .additional-text {
@@ -2350,7 +2346,6 @@ margin-left: -60%;
     width: 200px;
     display: flex;
     flex-direction:column;
-    align-items: justify;
     margin-top: 150px;
  margin-left: 10px;
     }
@@ -2737,12 +2732,12 @@ opacity: 40%;
 .main-text {
     color: var(--Grey, #65635F);
     text-align: center;
-    font:  px/1 'Simonetta', serif;
+    font:  16px/1 'Simonetta', serif;
     line-height: 30px;
  margin-left: -75px;
  margin-top: -130px;
  position: absolute;
-      border-bottom:: 1px solid #DBD9D8;
+      border-bottom: 1px solid #DBD9D8;
 }
 
 .additional-text {
@@ -2872,7 +2867,6 @@ margin-left: -60%;
     width: 200px;
     display: flex;
     flex-direction:column;
-    align-items: justify;
     margin-top: 200px;
     }
 
@@ -3260,7 +3254,7 @@ opacity: 40%;
  margin-left: -75px;
  margin-top: -150px;
  position: absolute;
-      border-bottom:: 1px solid #DBD9D8;
+      border-bottom: 1px solid #DBD9D8;
 }
 
 .additional-text {
@@ -3390,7 +3384,6 @@ margin-left: -60%;
     width: 200px;
     display: flex;
     flex-direction:column;
-    align-items: justify;
     margin-top: -60px;
     }
 
